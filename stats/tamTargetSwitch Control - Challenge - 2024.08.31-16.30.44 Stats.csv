@@ -1,0 +1,59 @@
+Kill #,Timestamp,Bot,Weapon,TTK,Shots,Hits,Accuracy,Damage Done,Damage Possible,Efficiency,Cheated,OverShots
+1,16:29:47.453,regen_dot,Poke-Drill,2.782000s,282,95,0.336879,95.000000,282.000000,0.336879,0,25
+2,16:29:48.741,regen_dot,Poke-Drill,1.033000s,104,50,0.480769,50.000000,104.000000,0.480769,0,25
+3,16:29:50.491,regen_dot,Poke-Drill,1.486000s,150,70,0.466667,70.000000,150.000000,0.466667,0,25
+4,16:29:52.693,regen_dot,Poke-Drill,1.941000s,195,89,0.456410,89.000000,195.000000,0.456410,0,25
+5,16:29:58.362,regen_dot,Poke-Drill,5.409000s,542,195,0.359779,195.000000,542.000000,0.359779,0,25
+6,16:30:00.578,regen_dot,Poke-Drill,1.960000s,197,85,0.431472,85.000000,197.000000,0.431472,0,25
+7,16:30:04.632,regen_dot,Poke-Drill,3.792000s,380,150,0.394737,150.000000,380.000000,0.394737,0,25
+8,16:30:08.871,regen_dot,Poke-Drill,3.982000s,399,128,0.320802,128.000000,399.000000,0.320802,0,25
+9,16:30:10.259,regen_dot,Poke-Drill,1.128000s,114,60,0.526316,60.000000,114.000000,0.526316,0,25
+10,16:30:14.730,regen_dot,Poke-Drill,4.210000s,422,164,0.388626,164.000000,422.000000,0.388626,0,25
+11,16:30:22.251,regen_dot,Poke-Drill,7.258000s,727,268,0.368638,268.000000,727.000000,0.368638,0,25
+12,16:30:26.320,regen_dot,Poke-Drill,3.807000s,382,140,0.366492,140.000000,382.000000,0.366492,0,25
+13,16:30:40.823,regen_dot,Poke-Drill,14.242001s,1425,364,0.255439,364.000000,1425.000000,0.255439,0,25
+
+Weapon,Shots,Hits,Damage Done,Damage Possible,,Sens Scale,Horiz Sens,Vert Sens,FOV,Hide Gun,Crosshair,Crosshair Scale,Crosshair Color,ADS Sens,ADS Zoom Scale
+Poke-Drill,5676,1963,1963.0,5676.0,
+
+Kills:,13
+Deaths:,0
+Fight Time:,53.029999
+Time Remaining:,0.0
+Avg TTK:,4.615358
+Damage Done:,1963.0
+Total Overshots:,325
+Damage Taken:,0.0
+Hit Count:,1963
+Miss Count:,3713
+Midairs:,0
+Midaired:,0
+Directs:,0
+Directed:,0
+Reloads:,0
+Distance Traveled:,0.0
+MBS Points:,0.0
+Score:,13.0
+Scenario:,tamTargetSwitch Control
+Hash:,3e539685ecb41045d18697e346a23497
+Game Version:,3.5.4.2024-05-24-14-41-42-7f44301bd0
+Challenge Start:,16:29:44.405
+Pause Count:,0
+Pause Duration:,0
+
+Input Lag:,0
+Max FPS (config):,999.0
+Sens Scale:,Valorant
+Sens Increment:,0.199886
+Horiz Sens:,0.2
+Vert Sens:,0.2
+DPI:,800
+FOV:,103.0
+FOVScale:,Valorant
+Hide Gun:,false
+Crosshair:,interxhair.png
+Crosshair Scale:,1.0
+Crosshair Color:,000000FF
+Resolution:,1920x1080
+Avg FPS:,241.396194
+Resolution Scale:,100.0

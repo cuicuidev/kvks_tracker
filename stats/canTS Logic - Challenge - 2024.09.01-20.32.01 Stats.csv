@@ -1,0 +1,62 @@
+Kill #,Timestamp,Bot,Weapon,TTK,Shots,Hits,Accuracy,Damage Done,Damage Possible,Efficiency,Cheated,OverShots
+1,20:31:03.943,test,Poke-Drill,1.767000s,125,70,0.560000,70.000000,125.000000,0.560000,0,21
+2,20:31:07.130,test,Poke-Drill,2.883000s,203,81,0.399015,81.000000,203.000000,0.399015,0,20
+3,20:31:09.299,test,Poke-Drill,1.809000s,128,65,0.507812,65.000000,128.000000,0.507812,0,25
+4,20:31:12.933,test,Poke-Drill,3.257000s,229,91,0.397380,91.000000,229.000000,0.397380,0,25
+5,20:31:15.043,test,Poke-Drill,1.757000s,124,62,0.500000,62.000000,124.000000,0.500000,0,23
+6,20:31:17.171,test,Poke-Drill,1.768000s,125,60,0.480000,60.000000,125.000000,0.480000,0,25
+7,20:31:19.377,test,Poke-Drill,1.831000s,129,55,0.426357,55.000000,129.000000,0.426357,0,25
+8,20:31:31.131,test,Poke-Drill,11.384001s,798,295,0.369674,295.000000,798.000000,0.369674,0,25
+9,20:31:34.692,test,Poke-Drill,3.192000s,224,65,0.290179,65.000000,224.000000,0.290179,0,25
+10,20:31:38.159,test,Poke-Drill,3.100000s,218,84,0.385321,84.000000,218.000000,0.385321,0,25
+11,20:31:46.113,test,Poke-Drill,7.604001s,533,171,0.320826,171.000000,533.000000,0.320826,0,23
+12,20:31:48.903,test,Poke-Drill,2.428000s,171,70,0.409357,70.000000,171.000000,0.409357,0,25
+13,20:31:50.359,test,Poke-Drill,1.084000s,77,48,0.623377,48.000000,77.000000,0.623377,0,25
+14,20:31:52.064,test,Poke-Drill,1.334000s,94,46,0.489362,46.000000,94.000000,0.489362,0,25
+15,20:31:53.606,test,Poke-Drill,1.176000s,83,47,0.566265,47.000000,83.000000,0.566265,0,25
+16,20:32:00.503,test,Poke-Drill,6.529000s,458,179,0.390830,179.000000,458.000000,0.390830,0,25
+
+Weapon,Shots,Hits,Damage Done,Damage Possible,,Sens Scale,Horiz Sens,Vert Sens,FOV,Hide Gun,Crosshair,Crosshair Scale,Crosshair Color,ADS Sens,ADS Zoom Scale
+Poke-Drill,3801,1501,1501.0,3801.0,
+
+Kills:,16
+Deaths:,0
+Fight Time:,52.903
+Time Remaining:,0.0
+Avg TTK:,5.35713
+Damage Done:,1501.0
+Total Overshots:,387
+Damage Taken:,0.0
+Hit Count:,1501
+Miss Count:,2300
+Midairs:,0
+Midaired:,0
+Directs:,0
+Directed:,0
+Reloads:,0
+Distance Traveled:,0.0
+MBS Points:,0.0
+Score:,160.0
+Scenario:,canTS Logic
+Hash:,3a5ac36a511da043675a77917f5a5e2b
+Game Version:,3.5.4.2024-05-24-14-41-42-7f44301bd0
+Challenge Start:,20:31:01.697
+Pause Count:,0
+Pause Duration:,0
+
+Input Lag:,0
+Max FPS (config):,999.0
+Sens Scale:,Valorant
+Sens Increment:,0.199886
+Horiz Sens:,0.2
+Vert Sens:,0.2
+DPI:,800
+FOV:,103.0
+FOVScale:,Valorant
+Hide Gun:,false
+Crosshair:,Kosei.png
+Crosshair Scale:,0.8
+Crosshair Color:,000000FF
+Resolution:,1920x1080
+Avg FPS:,272.179535
+Resolution Scale:,100.0

@@ -1,0 +1,66 @@
+Kill #,Timestamp,Bot,Weapon,TTK,Shots,Hits,Accuracy,Damage Done,Damage Possible,Efficiency,Cheated,OverShots
+1,00:03:21.663,Pigeon5,pistol,0.000000s,1,1,1.000000,100.000000,200.000000,0.500000,0,0
+2,00:03:26.485,Pigeon,pistol,3.439000s,3,1,0.333333,100.000000,600.000000,0.166667,0,0
+3,00:03:27.781,Pigeon4,pistol,0.000000s,1,1,1.000000,100.000000,200.000000,0.500000,0,0
+4,00:03:32.775,Pigeon3,pistol,3.700000s,3,1,0.333333,100.000000,600.000000,0.166667,0,0
+5,00:03:36.871,Pigeon2,pistol,2.822000s,3,1,0.333333,100.000000,600.000000,0.166667,0,0
+6,00:03:40.627,Pigeon4,pistol,1.754000s,2,1,0.500000,100.000000,400.000000,0.250000,0,0
+7,00:03:43.523,Pigeon5,pistol,0.000000s,1,1,1.000000,100.000000,200.000000,0.500000,0,0
+8,00:03:46.017,Pigeon2,pistol,1.442000s,2,1,0.500000,100.000000,400.000000,0.250000,0,0
+9,00:03:47.238,Pigeon,pistol,0.001000s,1,1,1.000000,100.000000,200.000000,0.500000,0,0
+10,00:03:48.839,Pigeon3,pistol,0.000000s,1,1,1.000000,100.000000,200.000000,0.500000,0,0
+11,00:03:50.121,Pigeon,pistol,0.000000s,1,1,1.000000,100.000000,200.000000,0.500000,0,0
+12,00:03:54.385,Pigeon5,pistol,2.855000s,3,1,0.333333,100.000000,600.000000,0.166667,0,0
+13,00:03:55.800,Pigeon2,pistol,0.000000s,1,1,1.000000,100.000000,200.000000,0.500000,0,0
+14,00:03:57.120,Pigeon3,pistol,0.000000s,1,1,1.000000,100.000000,200.000000,0.500000,0,0
+15,00:04:02.686,Pigeon4,pistol,4.585000s,3,1,0.333333,100.000000,600.000000,0.166667,0,0
+16,00:04:11.346,Pigeon4,pistol,6.801000s,6,1,0.166667,100.000000,1200.000000,0.083333,0,0
+17,00:04:12.366,Pigeon3,pistol,0.000000s,1,1,1.000000,100.000000,200.000000,0.500000,0,0
+18,00:04:14.229,Pigeon,pistol,0.000000s,1,1,1.000000,100.000000,200.000000,0.500000,0,0
+19,00:04:15.946,Pigeon4,pistol,0.000000s,1,1,1.000000,100.000000,200.000000,0.500000,0,0
+20,00:04:20.010,Pigeon2,pistol,2.956000s,3,1,0.333333,100.000000,600.000000,0.166667,0,0
+
+Weapon,Shots,Hits,Damage Done,Damage Possible,,Sens Scale,Horiz Sens,Vert Sens,FOV,Hide Gun,Crosshair,Crosshair Scale,Crosshair Color,ADS Sens,ADS Zoom Scale
+pistol,39,20,2000.0,7800.0,
+
+Kills:,20
+Deaths:,0
+Fight Time:,30.355
+Time Remaining:,0.0
+Avg TTK:,3.333323
+Damage Done:,2000.0
+Total Overshots:,0
+Damage Taken:,0.0
+Hit Count:,20
+Miss Count:,19
+Midairs:,0
+Midaired:,0
+Directs:,0
+Directed:,0
+Reloads:,19
+Distance Traveled:,0.0
+MBS Points:,0.0
+Score:,200.0
+Scenario:,Popcorn Voltaic Easy
+Hash:,f5b2976cfb4c0adb84fca4b22c48de15
+Game Version:,3.5.4.2024-05-24-14-41-42-7f44301bd0
+Challenge Start:,00:03:20.329
+Pause Count:,0
+Pause Duration:,0
+
+Input Lag:,0
+Max FPS (config):,999.0
+Sens Scale:,Valorant
+Sens Increment:,0.199886
+Horiz Sens:,0.2
+Vert Sens:,0.2
+DPI:,800
+FOV:,103.0
+FOVScale:,Valorant
+Hide Gun:,false
+Crosshair:,interxhair.png
+Crosshair Scale:,1.0
+Crosshair Color:,000000FF
+Resolution:,1920x1080
+Avg FPS:,247.653168
+Resolution Scale:,100.0

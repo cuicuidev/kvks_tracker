@@ -1,0 +1,62 @@
+Kill #,Timestamp,Bot,Weapon,TTK,Shots,Hits,Accuracy,Damage Done,Damage Possible,Efficiency,Cheated,OverShots
+1,23:34:44.083,Pigeon4,pistol,0.000000s,1,1,1.000000,100.000000,200.000000,0.500000,0,0
+2,23:34:45.620,Pigeon3,pistol,0.000000s,1,1,1.000000,100.000000,200.000000,0.500000,0,0
+3,23:34:48.485,Pigeon2,pistol,1.756000s,2,1,0.500000,100.000000,400.000000,0.250000,0,0
+4,23:34:54.233,Pigeon,pistol,4.694000s,4,1,0.250000,100.000000,800.000000,0.125000,0,0
+5,23:34:57.344,Pigeon3,pistol,1.588000s,2,1,0.500000,100.000000,400.000000,0.250000,0,0
+6,23:34:58.618,Pigeon5,pistol,0.000000s,1,1,1.000000,100.000000,200.000000,0.500000,0,0
+7,23:34:59.555,Pigeon5,pistol,0.000000s,1,1,1.000000,100.000000,200.000000,0.500000,0,0
+8,23:35:03.046,Pigeon4,pistol,2.182000s,2,1,0.500000,100.000000,400.000000,0.250000,0,0
+9,23:35:04.316,Pigeon2,pistol,0.000000s,1,1,1.000000,100.000000,200.000000,0.500000,0,0
+10,23:35:09.223,Pigeon5,pistol,3.265000s,3,1,0.333333,100.000000,600.000000,0.166667,0,0
+11,23:35:11.526,Pigeon,pistol,1.307000s,2,1,0.500000,100.000000,400.000000,0.250000,0,0
+12,23:35:25.735,Pigeon,pistol,13.479001s,10,1,0.100000,100.000000,2000.000000,0.050000,0,0
+13,23:35:27.100,Pigeon,pistol,0.000000s,1,1,1.000000,100.000000,200.000000,0.500000,0,0
+14,23:35:32.854,Pigeon4,pistol,4.099000s,3,1,0.333333,100.000000,600.000000,0.166667,0,0
+15,23:35:34.206,Pigeon2,pistol,0.000000s,1,1,1.000000,100.000000,200.000000,0.500000,0,0
+16,23:35:40.638,Pigeon2,pistol,3.132000s,3,1,0.333333,100.000000,600.000000,0.166667,0,0
+
+Weapon,Shots,Hits,Damage Done,Damage Possible,,Sens Scale,Horiz Sens,Vert Sens,FOV,Hide Gun,Crosshair,Crosshair Scale,Crosshair Color,ADS Sens,ADS Zoom Scale
+pistol,39,16,1600.0,7800.0,
+
+Kills:,16
+Deaths:,0
+Fight Time:,35.501999
+Time Remaining:,0.0
+Avg TTK:,4.166653
+Damage Done:,1600.0
+Total Overshots:,0
+Damage Taken:,0.0
+Hit Count:,16
+Miss Count:,23
+Midairs:,0
+Midaired:,0
+Directs:,0
+Directed:,0
+Reloads:,23
+Distance Traveled:,0.0
+MBS Points:,0.0
+Score:,160.0
+Scenario:,Popcorn Voltaic Easy
+Hash:,f5b2976cfb4c0adb84fca4b22c48de15
+Game Version:,3.5.4.2024-05-24-14-41-42-7f44301bd0
+Challenge Start:,23:34:42.732
+Pause Count:,0
+Pause Duration:,0
+
+Input Lag:,0
+Max FPS (config):,999.0
+Sens Scale:,Valorant
+Sens Increment:,0.199886
+Horiz Sens:,0.2
+Vert Sens:,0.2
+DPI:,800
+FOV:,103.0
+FOVScale:,Valorant
+Hide Gun:,false
+Crosshair:,interxhair.png
+Crosshair Scale:,1.0
+Crosshair Color:,000000FF
+Resolution:,1920x1080
+Avg FPS:,248.717468
+Resolution Scale:,100.0

@@ -1,0 +1,51 @@
+Kill #,Timestamp,Bot,Weapon,TTK,Shots,Hits,Accuracy,Damage Done,Damage Possible,Efficiency,Cheated,OverShots
+1,19:44:43.848,air1_mixed_short_dash,LG,39.999001s,4002,1200,0.299850,1200.000000,4002.000000,0.299850,0,25
+2,19:45:27.365,air_close_short,LG,43.260002s,4274,1200,0.280767,1200.000000,4274.000000,0.280767,0,25
+3,19:46:01.571,air1_far_short,LG,33.945004s,3336,1200,0.359712,1200.000000,3336.000000,0.359712,0,25
+4,19:46:50.268,air1F_close_short,LG,48.442001s,4733,1200,0.253539,1200.000000,4733.000000,0.253539,0,25
+5,19:47:31.385,air1F_far_short,LG,41.108002s,3991,1200,0.300677,1200.000000,3991.000000,0.300677,0,0
+
+Weapon,Shots,Hits,Damage Done,Damage Possible,,Sens Scale,Horiz Sens,Vert Sens,FOV,Hide Gun,Crosshair,Crosshair Scale,Crosshair Color,ADS Sens,ADS Zoom Scale
+LG,20336,6000,6000.0,20336.0,
+
+Kills:,5
+Deaths:,0
+Fight Time:,206.753998
+Time Remaining:,0.0
+Avg TTK:,41.560696
+Damage Done:,6000.0
+Total Overshots:,100
+Damage Taken:,0.0
+Hit Count:,6000
+Miss Count:,14336
+Midairs:,0
+Midaired:,0
+Directs:,0
+Directed:,0
+Reloads:,0
+Distance Traveled:,0.0
+MBS Points:,0.0
+Score:,792.200439
+Scenario:,Ground Plaza Voltaic Easy
+Hash:,37f76fdaf6386692f35e76a90b4a5121
+Game Version:,3.5.4.2024-05-24-14-41-42-7f44301bd0
+Challenge Start:,19:44:03.588
+Pause Count:,0
+Pause Duration:,0
+
+Input Lag:,0
+Max FPS (config):,999.0
+Sens Scale:,Valorant
+Sens Increment:,0.199886
+Horiz Sens:,0.2
+Vert Sens:,0.2
+DPI:,800
+FOV:,103.0
+FOVScale:,Valorant
+Hide Gun:,false
+Crosshair:,interxhair.png
+Crosshair Scale:,1.0
+Crosshair Color:,000000FF
+Resolution:,1920x1080
+Avg FPS:,230.707184
+Resolution Scale:,100.0

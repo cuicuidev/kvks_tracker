@@ -1,0 +1,54 @@
+Kill #,Timestamp,Bot,Weapon,TTK,Shots,Hits,Accuracy,Damage Done,Damage Possible,Efficiency,Cheated,OverShots
+1,11:29:10.419,Thin very long strafe,Track Master 100,4.705000s,472,200,0.423729,200.000000,472.000000,0.423729,0,25
+2,11:29:17.305,Thin very long strafe,Track Master 100,6.625000s,389,200,0.514139,200.000000,389.000000,0.514139,0,25
+3,11:29:26.975,Thin very long strafe,Track Master 100,9.407001s,687,200,0.291121,200.000000,687.000000,0.291121,0,25
+4,11:29:34.561,Thin very long strafe,Track Master 100,7.330000s,491,200,0.407332,200.000000,491.000000,0.407332,0,25
+5,11:29:42.028,Thin very long strafe,Track Master 100,7.199000s,551,200,0.362976,200.000000,551.000000,0.362976,0,25
+6,11:29:51.335,Thin very long strafe,Track Master 100,9.051001s,564,200,0.354610,200.000000,564.000000,0.354610,0,25
+7,11:29:57.803,Thin very long strafe,Track Master 100,6.207000s,380,200,0.526316,200.000000,380.000000,0.526316,0,25
+8,11:30:04.024,Thin very long strafe,Track Master 100,5.967000s,440,200,0.454545,200.000000,440.000000,0.454545,0,25
+
+Weapon,Shots,Hits,Damage Done,Damage Possible,,Sens Scale,Horiz Sens,Vert Sens,FOV,Hide Gun,Crosshair,Crosshair Scale,Crosshair Color,ADS Sens,ADS Zoom Scale
+Track Master 100,3983,1600,1600.0,3983.0,
+
+Kills:,8
+Deaths:,0
+Fight Time:,56.491001
+Time Remaining:,0.0
+Avg TTK:,7.499957
+Damage Done:,1600.0
+Total Overshots:,200
+Damage Taken:,0.0
+Hit Count:,1600
+Miss Count:,2383
+Midairs:,0
+Midaired:,0
+Directs:,0
+Directed:,0
+Reloads:,0
+Distance Traveled:,0.0
+MBS Points:,0.0
+Score:,1600.0
+Scenario:,Thin Aiming Long slow
+Hash:,1752e8053ba5d8143a4c0f33b2b03300
+Game Version:,3.5.4.2024-05-24-14-41-42-7f44301bd0
+Challenge Start:,11:29:04.724
+Pause Count:,0
+Pause Duration:,0
+
+Input Lag:,0
+Max FPS (config):,999.0
+Sens Scale:,Valorant
+Sens Increment:,0.199886
+Horiz Sens:,0.2
+Vert Sens:,0.2
+DPI:,800
+FOV:,103.0
+FOVScale:,Valorant
+Hide Gun:,false
+Crosshair:,interxhair.png
+Crosshair Scale:,1.0
+Crosshair Color:,000000FF
+Resolution:,1920x1080
+Avg FPS:,199.528625
+Resolution Scale:,100.0

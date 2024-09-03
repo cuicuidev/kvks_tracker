@@ -1,0 +1,62 @@
+Kill #,Timestamp,Bot,Weapon,TTK,Shots,Hits,Accuracy,Damage Done,Damage Possible,Efficiency,Cheated,OverShots
+1,18:30:57.989,test360,pistol,1.869000s,2,1,0.500000,1000.000000,5000.000000,0.200000,0,0
+2,18:31:01.741,test360,pistol,2.089000s,3,1,0.333333,1000.000000,7500.000000,0.133333,0,0
+3,18:31:04.186,test360,pistol,1.393000s,3,1,0.333333,1000.000000,7500.000000,0.133333,0,0
+4,18:31:09.456,test360,pistol,4.568000s,3,1,0.333333,1000.000000,7500.000000,0.133333,0,0
+5,18:31:11.462,test360,pistol,0.000000s,1,1,1.000000,1000.000000,2500.000000,0.400000,0,0
+6,18:31:12.737,test360,pistol,0.000000s,1,1,1.000000,1000.000000,2500.000000,0.400000,0,0
+7,18:31:18.155,test360,pistol,4.404000s,4,1,0.250000,1000.000000,10000.000000,0.100000,0,0
+8,18:31:22.937,test360,pistol,1.610000s,3,1,0.333333,1000.000000,7500.000000,0.133333,0,0
+9,18:31:26.848,test360,pistol,2.157000s,3,1,0.333333,1000.000000,7500.000000,0.133333,0,0
+10,18:31:36.245,test360,pistol,7.306000s,6,1,0.166667,1000.000000,15000.000000,0.066667,0,0
+11,18:31:38.823,test360,pistol,1.334000s,2,1,0.500000,1000.000000,5000.000000,0.200000,0,0
+12,18:31:41.435,test360,pistol,1.067000s,2,1,0.500000,1000.000000,5000.000000,0.200000,0,0
+13,18:31:45.487,test360,pistol,1.498000s,2,1,0.500000,1000.000000,5000.000000,0.200000,0,0
+14,18:31:46.814,test360,pistol,0.000000s,1,1,1.000000,1000.000000,2500.000000,0.400000,0,0
+15,18:31:49.360,test360,pistol,1.712000s,2,1,0.500000,1000.000000,5000.000000,0.200000,0,0
+16,18:31:52.368,test360,pistol,1.643000s,3,1,0.333333,1000.000000,7500.000000,0.133333,0,0
+
+Weapon,Shots,Hits,Damage Done,Damage Possible,,Sens Scale,Horiz Sens,Vert Sens,FOV,Hide Gun,Crosshair,Crosshair Scale,Crosshair Color,ADS Sens,ADS Zoom Scale
+pistol,46,16,16000.0,115000.0,
+
+Kills:,16
+Deaths:,0
+Fight Time:,32.650002
+Time Remaining:,0.0
+Avg TTK:,3.749979
+Damage Done:,16000.0
+Total Overshots:,0
+Damage Taken:,0.0
+Hit Count:,16
+Miss Count:,30
+Midairs:,0
+Midaired:,0
+Directs:,0
+Directed:,0
+Reloads:,2
+Distance Traveled:,53750.394531
+MBS Points:,0.0
+Score:,101750.390625
+Scenario:,Pasu Dodge
+Hash:,c7d02fdfd026c163dfab5484ffbfda9f
+Game Version:,3.5.4.2024-05-24-14-41-42-7f44301bd0
+Challenge Start:,18:30:55.203
+Pause Count:,0
+Pause Duration:,0
+
+Input Lag:,0
+Max FPS (config):,999.0
+Sens Scale:,Valorant
+Sens Increment:,0.199886
+Horiz Sens:,0.2
+Vert Sens:,0.2
+DPI:,800
+FOV:,103.0
+FOVScale:,Valorant
+Hide Gun:,false
+Crosshair:,interxhair.png
+Crosshair Scale:,1.0
+Crosshair Color:,000000FF
+Resolution:,1920x1080
+Avg FPS:,167.624252
+Resolution Scale:,100.0

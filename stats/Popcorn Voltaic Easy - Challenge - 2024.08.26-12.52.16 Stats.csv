@@ -1,0 +1,60 @@
+Kill #,Timestamp,Bot,Weapon,TTK,Shots,Hits,Accuracy,Damage Done,Damage Possible,Efficiency,Cheated,OverShots
+1,12:51:17.892,Pigeon,pistol,0.000000s,1,1,1.000000,100.000000,200.000000,0.500000,0,0
+2,12:51:23.332,Pigeon5,pistol,4.117000s,4,1,0.250000,100.000000,800.000000,0.125000,0,0
+3,12:51:26.721,Pigeon2,pistol,2.038000s,2,1,0.500000,100.000000,400.000000,0.250000,0,0
+4,12:51:28.563,Pigeon4,pistol,0.000000s,1,1,1.000000,100.000000,200.000000,0.500000,0,0
+5,12:51:30.756,Pigeon,pistol,0.000000s,1,1,1.000000,100.000000,200.000000,0.500000,0,0
+6,12:51:36.171,Pigeon2,pistol,3.619000s,3,1,0.333333,100.000000,600.000000,0.166667,0,0
+7,12:51:47.237,Pigeon2,pistol,9.323001s,7,1,0.142857,100.000000,1400.000000,0.071429,0,0
+8,12:51:48.711,Pigeon3,pistol,0.000000s,1,1,1.000000,100.000000,200.000000,0.500000,0,0
+9,12:51:50.030,Pigeon3,pistol,0.000000s,1,1,1.000000,100.000000,200.000000,0.500000,0,0
+10,12:51:52.360,Pigeon3,pistol,0.000000s,1,1,1.000000,100.000000,200.000000,0.500000,0,0
+11,12:51:54.030,Pigeon4,pistol,0.000000s,1,1,1.000000,100.000000,200.000000,0.500000,0,0
+12,12:52:02.690,Pigeon5,pistol,4.382000s,4,1,0.250000,100.000000,800.000000,0.125000,0,0
+13,12:52:03.905,Pigeon4,pistol,0.000000s,1,1,1.000000,100.000000,200.000000,0.500000,0,0
+14,12:52:15.251,Pigeon3,pistol,9.742001s,6,1,0.166667,100.000000,1200.000000,0.083333,0,0
+
+Weapon,Shots,Hits,Damage Done,Damage Possible,,Sens Scale,Horiz Sens,Vert Sens,FOV,Hide Gun,Crosshair,Crosshair Scale,Crosshair Color,ADS Sens,ADS Zoom Scale
+pistol,35,14,1400.0,7000.0,
+
+Kills:,14
+Deaths:,0
+Fight Time:,33.221001
+Time Remaining:,0.0
+Avg TTK:,4.761889
+Damage Done:,1400.0
+Total Overshots:,0
+Damage Taken:,0.0
+Hit Count:,14
+Miss Count:,21
+Midairs:,0
+Midaired:,0
+Directs:,0
+Directed:,0
+Reloads:,21
+Distance Traveled:,0.0
+MBS Points:,0.0
+Score:,140.0
+Scenario:,Popcorn Voltaic Easy
+Hash:,f5b2976cfb4c0adb84fca4b22c48de15
+Game Version:,3.5.4.2024-05-24-14-41-42-7f44301bd0
+Challenge Start:,12:51:16.777
+Pause Count:,0
+Pause Duration:,0
+
+Input Lag:,0
+Max FPS (config):,999.0
+Sens Scale:,Valorant
+Sens Increment:,0.199886
+Horiz Sens:,0.2
+Vert Sens:,0.2
+DPI:,800
+FOV:,103.0
+FOVScale:,Valorant
+Hide Gun:,false
+Crosshair:,interxhair.png
+Crosshair Scale:,1.0
+Crosshair Color:,000000FF
+Resolution:,1920x1080
+Avg FPS:,212.542633
+Resolution Scale:,100.0

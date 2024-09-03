@@ -1,0 +1,62 @@
+Kill #,Timestamp,Bot,Weapon,TTK,Shots,Hits,Accuracy,Damage Done,Damage Possible,Efficiency,Cheated,OverShots
+1,21:49:04.444,Quaker Bot Decay,pistol,0.743000s,2,1,0.500000,25.000000,100.000000,0.250000,0,0
+2,21:49:14.957,Quaker Bot Decay,pistol,9.837001s,11,1,0.090909,25.000000,550.000000,0.045455,0,0
+3,21:49:20.526,Quaker Bot Decay,pistol,4.900000s,6,1,0.166667,25.000000,300.000000,0.083333,0,0
+4,21:49:23.083,Quaker Bot Decay,pistol,1.935000s,3,1,0.333333,25.000000,150.000000,0.166667,0,0
+5,21:49:24.667,Quaker Bot Decay,pistol,0.907000s,2,1,0.500000,25.000000,100.000000,0.250000,0,0
+6,21:49:27.211,Quaker Bot Decay,pistol,1.869000s,3,1,0.333333,25.000000,150.000000,0.166667,0,0
+7,21:49:34.752,Quaker Bot Decay,pistol,6.901000s,7,1,0.142857,25.000000,350.000000,0.071429,0,0
+8,21:49:35.429,Quaker Bot Decay,pistol,0.000000s,1,1,1.000000,25.000000,50.000000,0.500000,0,0
+9,21:49:36.062,Quaker Bot Decay,pistol,0.000000s,1,1,1.000000,25.000000,50.000000,0.500000,0,0
+10,21:49:38.721,Quaker Bot Decay,pistol,2.005000s,3,1,0.333333,25.000000,150.000000,0.166667,0,0
+11,21:49:39.369,Quaker Bot Decay,pistol,0.000000s,1,1,1.000000,25.000000,50.000000,0.500000,0,0
+12,21:49:41.253,Quaker Bot Decay,pistol,1.185000s,3,1,0.333333,25.000000,150.000000,0.166667,0,0
+13,21:49:42.261,Quaker Bot Decay,pistol,0.369000s,2,1,0.500000,25.000000,100.000000,0.250000,0,0
+14,21:49:45.107,Quaker Bot Decay,pistol,2.133000s,5,1,0.200000,25.000000,250.000000,0.100000,0,0
+15,21:49:45.746,Quaker Bot Decay,pistol,0.001000s,1,1,1.000000,25.000000,50.000000,0.500000,0,0
+16,21:49:47.363,Quaker Bot Decay,pistol,0.963000s,2,1,0.500000,25.000000,100.000000,0.250000,0,0
+
+Weapon,Shots,Hits,Damage Done,Damage Possible,,Sens Scale,Horiz Sens,Vert Sens,FOV,Hide Gun,Crosshair,Crosshair Scale,Crosshair Color,ADS Sens,ADS Zoom Scale
+pistol,56,16,400.0,2800.0,
+
+Kills:,16
+Deaths:,0
+Fight Time:,33.748001
+Time Remaining:,0.0
+Avg TTK:,2.812493
+Damage Done:,400.0
+Total Overshots:,0
+Damage Taken:,0.0
+Hit Count:,16
+Miss Count:,40
+Midairs:,0
+Midaired:,0
+Directs:,0
+Directed:,0
+Reloads:,0
+Distance Traveled:,0.0
+MBS Points:,0.0
+Score:,400.0
+Scenario:,Flux Valorant Reflex Flick
+Hash:,f7deb22b0a984a2bea2b2cb708987a83
+Game Version:,3.5.4.2024-05-24-14-41-42-7f44301bd0
+Challenge Start:,21:49:03.198
+Pause Count:,0
+Pause Duration:,0
+
+Input Lag:,0
+Max FPS (config):,999.0
+Sens Scale:,Valorant
+Sens Increment:,0.3498
+Horiz Sens:,0.35
+Vert Sens:,0.35
+DPI:,800
+FOV:,103.0
+FOVScale:,Valorant
+Hide Gun:,false
+Crosshair:,interxhair.png
+Crosshair Scale:,1.0
+Crosshair Color:,000000FF
+Resolution:,1920x1080
+Avg FPS:,234.387344
+Resolution Scale:,100.0

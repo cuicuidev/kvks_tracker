@@ -1,0 +1,54 @@
+Kill #,Timestamp,Bot,Weapon,TTK,Shots,Hits,Accuracy,Damage Done,Damage Possible,Efficiency,Cheated,OverShots
+1,14:53:06.847,Mid,pistol,16.336000s,16,6,0.375000,6.000000,16.000000,0.375000,0,0
+2,14:53:09.754,Mid,pistol,2.477000s,4,1,0.250000,1.000000,4.000000,0.250000,0,0
+3,14:53:11.929,Low,pistol,0.870000s,2,2,1.000000,2.000000,2.000000,1.000000,0,0
+4,14:53:23.871,Mid,pistol,10.703000s,10,5,0.500000,5.000000,10.000000,0.500000,0,0
+5,14:53:26.103,Low,pistol,1.496000s,3,1,0.333333,1.000000,3.000000,0.333333,0,0
+6,14:53:30.178,High,pistol,3.026000s,3,3,1.000000,3.000000,3.000000,1.000000,0,0
+7,14:53:34.163,Mid,pistol,2.877000s,4,3,0.750000,3.000000,4.000000,0.750000,0,0
+8,14:53:45.978,High,pistol,10.643001s,9,3,0.333333,3.000000,9.000000,0.333333,0,0
+
+Weapon,Shots,Hits,Damage Done,Damage Possible,,Sens Scale,Horiz Sens,Vert Sens,FOV,Hide Gun,Crosshair,Crosshair Scale,Crosshair Color,ADS Sens,ADS Zoom Scale
+pistol,54,25,25.0,54.0,
+
+Kills:,8
+Deaths:,0
+Fight Time:,48.428001
+Time Remaining:,0.0
+Avg TTK:,8.82347
+Damage Done:,25.0
+Total Overshots:,0
+Damage Taken:,0.0
+Hit Count:,25
+Miss Count:,29
+Midairs:,0
+Midaired:,0
+Directs:,0
+Directed:,0
+Reloads:,4
+Distance Traveled:,0.0
+MBS Points:,0.0
+Score:,5.0
+Scenario:,B180 30% Smaller 3-Click
+Hash:,a7da1a3fa67571497ca48e42d82674eb
+Game Version:,3.5.4.2024-05-24-14-41-42-7f44301bd0
+Challenge Start:,14:52:49.205
+Pause Count:,0
+Pause Duration:,0
+
+Input Lag:,0
+Max FPS (config):,999.0
+Sens Scale:,Valorant
+Sens Increment:,0.199886
+Horiz Sens:,0.2
+Vert Sens:,0.2
+DPI:,800
+FOV:,103.0
+FOVScale:,Valorant
+Hide Gun:,false
+Crosshair:,Kosei.png
+Crosshair Scale:,0.8
+Crosshair Color:,000000FF
+Resolution:,1920x1080
+Avg FPS:,261.437653
+Resolution Scale:,100.0

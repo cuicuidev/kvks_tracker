@@ -1,0 +1,50 @@
+Kill #,Timestamp,Bot,Weapon,TTK,Shots,Hits,Accuracy,Damage Done,Damage Possible,Efficiency,Cheated,OverShots
+1,20:34:55.579,test,pistol,15.547001s,17,3,0.176471,3000.000000,34000.000000,0.088235,0,0
+2,20:35:13.680,test,pistol,15.328001s,17,4,0.235294,4000.000000,34000.000000,0.117647,0,0
+3,20:35:24.388,test,pistol,9.266001s,11,2,0.181818,2000.000000,22000.000000,0.090909,0,0
+4,20:35:36.694,test,pistol,11.028001s,15,3,0.200000,3000.000000,30000.000000,0.100000,0,0
+
+Weapon,Shots,Hits,Damage Done,Damage Possible,,Sens Scale,Horiz Sens,Vert Sens,FOV,Hide Gun,Crosshair,Crosshair Scale,Crosshair Color,ADS Sens,ADS Zoom Scale
+pistol,62,13,13000.0,124000.0,
+
+Kills:,4
+Deaths:,0
+Fight Time:,51.168999
+Time Remaining:,0.0
+Avg TTK:,14.999914
+Damage Done:,13000.0
+Total Overshots:,0
+Damage Taken:,0.0
+Hit Count:,13
+Miss Count:,49
+Midairs:,0
+Midaired:,0
+Directs:,0
+Directed:,0
+Reloads:,10
+Distance Traveled:,0.0
+MBS Points:,0.0
+Score:,1.831622
+Scenario:,Pasu Voltaic Small 3ShotR5
+Hash:,040385160480264c57f99f1af3b88ee0
+Game Version:,3.5.4.2024-05-24-14-41-42-7f44301bd0
+Challenge Start:,20:34:38.801
+Pause Count:,0
+Pause Duration:,0
+
+Input Lag:,0
+Max FPS (config):,999.0
+Sens Scale:,Valorant
+Sens Increment:,0.199886
+Horiz Sens:,0.2
+Vert Sens:,0.2
+DPI:,800
+FOV:,103.0
+FOVScale:,Valorant
+Hide Gun:,false
+Crosshair:,Kosei.png
+Crosshair Scale:,0.8
+Crosshair Color:,000000FF
+Resolution:,1920x1080
+Avg FPS:,180.457733
+Resolution Scale:,100.0

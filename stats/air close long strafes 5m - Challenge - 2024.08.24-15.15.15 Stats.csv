@@ -1,0 +1,55 @@
+Kill #,Timestamp,Bot,Weapon,TTK,Shots,Hits,Accuracy,Damage Done,Damage Possible,Efficiency,Cheated,OverShots
+1,15:10:37.231,air1_close_long,Track Master 100,20.637001s,2065,1000,0.484262,1000.000000,2065.000000,0.484262,0,24
+2,15:11:08.422,air1_close_long,Track Master 100,29.391001s,2939,1000,0.340252,1000.000000,2939.000000,0.340252,0,25
+3,15:11:40.760,air1_close_long,Track Master 100,32.080002s,3057,1000,0.327118,1000.000000,3057.000000,0.327118,0,25
+4,15:12:06.886,air1_close_long,Track Master 100,25.873001s,2376,1000,0.420875,1000.000000,2376.000000,0.420875,0,25
+5,15:12:43.727,air1_close_long,Track Master 100,36.577003s,3264,1000,0.306373,1000.000000,3264.000000,0.306373,0,25
+6,15:13:18.426,air1_close_long,Track Master 100,34.442001s,3137,1000,0.318776,1000.000000,3137.000000,0.318776,0,25
+7,15:13:51.236,air1_close_long,Track Master 100,32.549000s,3016,1000,0.331565,1000.000000,3016.000000,0.331565,0,25
+8,15:14:24.753,air1_close_long,Track Master 100,33.259003s,3182,1000,0.314268,1000.000000,3182.000000,0.314268,0,25
+9,15:14:54.487,air1_close_long,Track Master 100,29.476002s,2817,1000,0.354988,1000.000000,2817.000000,0.354988,0,25
+
+Weapon,Shots,Hits,Damage Done,Damage Possible,,Sens Scale,Horiz Sens,Vert Sens,FOV,Hide Gun,Crosshair,Crosshair Scale,Crosshair Color,ADS Sens,ADS Zoom Scale
+Track Master 100,27855,9835,9835.0,27855.0,
+
+Kills:,9
+Deaths:,0
+Fight Time:,274.283997
+Time Remaining:,0.0
+Avg TTK:,33.334343
+Damage Done:,9835.0
+Total Overshots:,224
+Damage Taken:,0.0
+Hit Count:,9835
+Miss Count:,18020
+Midairs:,0
+Midaired:,0
+Directs:,0
+Directed:,0
+Reloads:,0
+Distance Traveled:,0.0
+MBS Points:,0.0
+Score:,9835.0
+Scenario:,air close long strafes 5m
+Hash:,f40f73d22500ad03f897aef8d69675b7
+Game Version:,3.5.4.2024-05-24-14-41-42-7f44301bd0
+Challenge Start:,15:10:15.947
+Pause Count:,0
+Pause Duration:,0
+
+Input Lag:,0
+Max FPS (config):,999.0
+Sens Scale:,Valorant
+Sens Increment:,0.199886
+Horiz Sens:,0.2
+Vert Sens:,0.2
+DPI:,800
+FOV:,103.0
+FOVScale:,Valorant
+Hide Gun:,false
+Crosshair:,interxhair.png
+Crosshair Scale:,1.0
+Crosshair Color:,000000FF
+Resolution:,1920x1080
+Avg FPS:,211.300201
+Resolution Scale:,100.0

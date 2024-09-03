@@ -1,0 +1,54 @@
+Kill #,Timestamp,Bot,Weapon,TTK,Shots,Hits,Accuracy,Damage Done,Damage Possible,Efficiency,Cheated,OverShots
+1,11:31:41.665,air1_far_long,Track Master 100,18.644001s,1866,1000,0.535906,1000.000000,1866.000000,0.535906,0,25
+2,11:32:00.604,air1_far_long,Track Master 100,18.675001s,1726,1000,0.579374,1000.000000,1726.000000,0.579374,0,25
+3,11:32:21.686,air1_far_long,Track Master 100,20.824001s,1922,1000,0.520291,1000.000000,1922.000000,0.520291,0,25
+4,11:32:42.857,air1_far_long,Track Master 100,20.911001s,1922,1000,0.520291,1000.000000,1922.000000,0.520291,0,25
+5,11:33:05.537,air1_far_long,Track Master 100,22.419001s,2089,1000,0.478698,1000.000000,2089.000000,0.478698,0,25
+6,11:33:25.377,air1_far_long,Track Master 100,19.580002s,1803,1000,0.554631,1000.000000,1803.000000,0.554631,0,25
+7,11:33:45.264,air1_far_long,Track Master 100,19.630001s,1816,1000,0.550661,1000.000000,1816.000000,0.550661,0,25
+8,11:34:05.356,air1_far_long,Track Master 100,18.528002s,1854,1000,0.539374,1000.000000,1854.000000,0.539374,0,0
+
+Weapon,Shots,Hits,Damage Done,Damage Possible,,Sens Scale,Horiz Sens,Vert Sens,FOV,Hide Gun,Crosshair,Crosshair Scale,Crosshair Color,ADS Sens,ADS Zoom Scale
+Track Master 100,14998,8000,8000.0,14998.0,
+
+Kills:,8
+Deaths:,0
+Fight Time:,159.212006
+Time Remaining:,0.0
+Avg TTK:,20.362593
+Damage Done:,8000.0
+Total Overshots:,175
+Damage Taken:,0.0
+Hit Count:,8000
+Miss Count:,6998
+Midairs:,0
+Midaired:,0
+Directs:,0
+Directed:,0
+Reloads:,0
+Distance Traveled:,0.0
+MBS Points:,0.0
+Score:,8000.0
+Scenario:,air far long strafes 5m
+Hash:,4be43e9cf5a446b875f777db5a26843e
+Game Version:,3.5.4.2024-05-24-14-41-42-7f44301bd0
+Challenge Start:,11:31:22.425
+Pause Count:,0
+Pause Duration:,0
+
+Input Lag:,0
+Max FPS (config):,999.0
+Sens Scale:,Valorant
+Sens Increment:,0.199886
+Horiz Sens:,0.2
+Vert Sens:,0.2
+DPI:,800
+FOV:,103.0
+FOVScale:,Valorant
+Hide Gun:,false
+Crosshair:,interxhair.png
+Crosshair Scale:,1.0
+Crosshair Color:,000000FF
+Resolution:,1920x1080
+Avg FPS:,181.526306
+Resolution Scale:,100.0

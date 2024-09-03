@@ -1,0 +1,58 @@
+Kill #,Timestamp,Bot,Weapon,TTK,Shots,Hits,Accuracy,Damage Done,Damage Possible,Efficiency,Cheated,OverShots
+1,23:35:49.018,Pigeon,pistol,0.000000s,1,1,1.000000,100.000000,200.000000,0.500000,0,0
+2,23:35:53.159,Pigeon2,pistol,1.638000s,2,1,0.500000,100.000000,400.000000,0.250000,0,0
+3,23:35:54.691,Pigeon3,pistol,0.000000s,1,1,1.000000,100.000000,200.000000,0.500000,0,0
+4,23:35:57.755,Pigeon4,pistol,1.691000s,2,1,0.500000,100.000000,400.000000,0.250000,0,0
+5,23:36:04.785,Pigeon2,pistol,5.620000s,4,1,0.250000,100.000000,800.000000,0.125000,0,0
+6,23:36:08.746,Pigeon4,pistol,2.483000s,2,1,0.500000,100.000000,400.000000,0.250000,0,0
+7,23:36:17.029,Pigeon3,pistol,5.991000s,4,1,0.250000,100.000000,800.000000,0.125000,0,0
+8,23:36:22.623,Pigeon5,pistol,4.713000s,3,1,0.333333,100.000000,600.000000,0.166667,0,0
+9,23:36:27.332,Pigeon3,pistol,2.452000s,3,1,0.333333,100.000000,600.000000,0.166667,0,0
+10,23:36:29.333,Pigeon5,pistol,0.000000s,1,1,1.000000,100.000000,200.000000,0.500000,0,0
+11,23:36:39.029,Pigeon4,pistol,7.891000s,6,1,0.166667,100.000000,1200.000000,0.083333,0,0
+12,23:36:44.220,Pigeon,pistol,3.867000s,4,1,0.250000,100.000000,800.000000,0.125000,0,0
+
+Weapon,Shots,Hits,Damage Done,Damage Possible,,Sens Scale,Horiz Sens,Vert Sens,FOV,Hide Gun,Crosshair,Crosshair Scale,Crosshair Color,ADS Sens,ADS Zoom Scale
+pistol,35,12,1200.0,7000.0,
+
+Kills:,12
+Deaths:,0
+Fight Time:,36.346001
+Time Remaining:,0.0
+Avg TTK:,5.555538
+Damage Done:,1200.0
+Total Overshots:,0
+Damage Taken:,0.0
+Hit Count:,12
+Miss Count:,23
+Midairs:,0
+Midaired:,0
+Directs:,0
+Directed:,0
+Reloads:,23
+Distance Traveled:,0.0
+MBS Points:,0.0
+Score:,120.0
+Scenario:,Popcorn Voltaic Easy
+Hash:,f5b2976cfb4c0adb84fca4b22c48de15
+Game Version:,3.5.4.2024-05-24-14-41-42-7f44301bd0
+Challenge Start:,23:35:48.028
+Pause Count:,0
+Pause Duration:,0
+
+Input Lag:,0
+Max FPS (config):,999.0
+Sens Scale:,Valorant
+Sens Increment:,0.199886
+Horiz Sens:,0.2
+Vert Sens:,0.2
+DPI:,800
+FOV:,103.0
+FOVScale:,Valorant
+Hide Gun:,false
+Crosshair:,interxhair.png
+Crosshair Scale:,1.0
+Crosshair Color:,000000FF
+Resolution:,1920x1080
+Avg FPS:,259.246979
+Resolution Scale:,100.0

@@ -1,0 +1,77 @@
+Kill #,Timestamp,Bot,Weapon,TTK,Shots,Hits,Accuracy,Damage Done,Damage Possible,Efficiency,Cheated,OverShots
+1,21:50:00.785,Quaker Bot Decay,pistol,0.098000s,2,1,0.500000,25.000000,100.000000,0.250000,0,0
+2,21:50:01.463,Quaker Bot Decay,pistol,0.000000s,1,1,1.000000,25.000000,50.000000,0.500000,0,0
+3,21:50:07.057,Quaker Bot Decay,pistol,4.919000s,10,1,0.100000,25.000000,500.000000,0.050000,0,0
+4,21:50:10.719,Quaker Bot Decay,pistol,3.493000s,9,1,0.111111,25.000000,450.000000,0.055556,0,0
+5,21:50:11.362,Quaker Bot Decay,pistol,0.000000s,1,1,1.000000,25.000000,50.000000,0.500000,0,0
+6,21:50:12.023,Quaker Bot Decay,pistol,0.000000s,1,1,1.000000,25.000000,50.000000,0.500000,0,0
+7,21:50:12.661,Quaker Bot Decay,pistol,0.000000s,1,1,1.000000,25.000000,50.000000,0.500000,0,0
+8,21:50:14.566,Quaker Bot Decay,pistol,1.276000s,4,1,0.250000,25.000000,200.000000,0.125000,0,0
+9,21:50:16.302,Quaker Bot Decay,pistol,1.109000s,3,1,0.333333,25.000000,150.000000,0.166667,0,0
+10,21:50:18.183,Quaker Bot Decay,pistol,1.203000s,4,1,0.250000,25.000000,200.000000,0.125000,0,0
+11,21:50:19.080,Quaker Bot Decay,pistol,0.277000s,2,1,0.500000,25.000000,100.000000,0.250000,0,0
+12,21:50:20.977,Quaker Bot Decay,pistol,1.205000s,4,1,0.250000,25.000000,200.000000,0.125000,0,0
+13,21:50:21.932,Quaker Bot Decay,pistol,0.295000s,2,1,0.500000,25.000000,100.000000,0.250000,0,0
+14,21:50:22.727,Quaker Bot Decay,pistol,0.000000s,1,1,1.000000,25.000000,50.000000,0.500000,0,0
+15,21:50:23.439,Quaker Bot Decay,pistol,0.000000s,1,1,1.000000,25.000000,50.000000,0.500000,0,0
+16,21:50:24.106,Quaker Bot Decay,pistol,0.000000s,1,1,1.000000,25.000000,50.000000,0.500000,0,0
+17,21:50:25.723,Quaker Bot Decay,pistol,0.908000s,3,1,0.333333,25.000000,150.000000,0.166667,0,0
+18,21:50:26.405,Quaker Bot Decay,pistol,0.000000s,1,1,1.000000,25.000000,50.000000,0.500000,0,0
+19,21:50:29.029,Quaker Bot Decay,pistol,1.879000s,5,1,0.200000,25.000000,250.000000,0.100000,0,0
+20,21:50:30.890,Quaker Bot Decay,pistol,1.183000s,4,1,0.250000,25.000000,200.000000,0.125000,0,0
+21,21:50:31.557,Quaker Bot Decay,pistol,0.000000s,1,1,1.000000,25.000000,50.000000,0.500000,0,0
+22,21:50:32.273,Quaker Bot Decay,pistol,0.000000s,1,1,1.000000,25.000000,50.000000,0.500000,0,0
+23,21:50:32.974,Quaker Bot Decay,pistol,0.000000s,1,1,1.000000,25.000000,50.000000,0.500000,0,0
+24,21:50:34.553,Quaker Bot Decay,pistol,0.953000s,3,1,0.333333,25.000000,150.000000,0.166667,0,0
+25,21:50:36.442,Quaker Bot Decay,pistol,1.211000s,4,1,0.250000,25.000000,200.000000,0.125000,0,0
+26,21:50:37.114,Quaker Bot Decay,pistol,0.000000s,1,1,1.000000,25.000000,50.000000,0.500000,0,0
+27,21:50:39.998,Quaker Bot Decay,pistol,2.184000s,6,1,0.166667,25.000000,300.000000,0.083333,0,0
+28,21:50:40.969,Quaker Bot Decay,pistol,0.245000s,2,1,0.500000,25.000000,100.000000,0.250000,0,0
+29,21:50:41.652,Quaker Bot Decay,pistol,0.000000s,1,1,1.000000,25.000000,50.000000,0.500000,0,0
+30,21:50:43.227,Quaker Bot Decay,pistol,0.909000s,3,1,0.333333,25.000000,150.000000,0.166667,0,0
+31,21:50:45.112,Quaker Bot Decay,pistol,1.246000s,4,1,0.250000,25.000000,200.000000,0.125000,0,0
+
+Weapon,Shots,Hits,Damage Done,Damage Possible,,Sens Scale,Horiz Sens,Vert Sens,FOV,Hide Gun,Crosshair,Crosshair Scale,Crosshair Color,ADS Sens,ADS Zoom Scale
+pistol,87,31,775.0,4350.0,
+
+Kills:,31
+Deaths:,0
+Fight Time:,24.593
+Time Remaining:,0.0
+Avg TTK:,1.451609
+Damage Done:,775.0
+Total Overshots:,0
+Damage Taken:,0.0
+Hit Count:,31
+Miss Count:,56
+Midairs:,0
+Midaired:,0
+Directs:,0
+Directed:,0
+Reloads:,0
+Distance Traveled:,0.0
+MBS Points:,0.0
+Score:,775.0
+Scenario:,Flux Valorant Reflex Flick
+Hash:,f7deb22b0a984a2bea2b2cb708987a83
+Game Version:,3.5.4.2024-05-24-14-41-42-7f44301bd0
+Challenge Start:,21:50:00.170
+Pause Count:,0
+Pause Duration:,0
+
+Input Lag:,0
+Max FPS (config):,999.0
+Sens Scale:,Valorant
+Sens Increment:,0.3498
+Horiz Sens:,0.35
+Vert Sens:,0.35
+DPI:,800
+FOV:,103.0
+FOVScale:,Valorant
+Hide Gun:,false
+Crosshair:,interxhair.png
+Crosshair Scale:,1.0
+Crosshair Color:,000000FF
+Resolution:,1920x1080
+Avg FPS:,231.229416
+Resolution Scale:,100.0

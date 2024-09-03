@@ -1,0 +1,69 @@
+Kill #,Timestamp,Bot,Weapon,TTK,Shots,Hits,Accuracy,Damage Done,Damage Possible,Efficiency,Cheated,OverShots
+1,14:42:14.653,Daanbot2,pistol,0.000000s,1,1,1.000000,50.000000,125.000000,0.400000,0,0
+2,14:42:15.547,Daanbot1,pistol,0.000000s,1,1,1.000000,50.000000,125.000000,0.400000,0,0
+3,14:42:18.203,Daanbot3,pistol,2.200000s,3,1,0.333333,50.000000,375.000000,0.133333,0,0
+4,14:42:25.058,Daanbot3,pistol,5.383000s,6,1,0.166667,50.000000,750.000000,0.066667,0,0
+5,14:42:31.169,Daanbot1,pistol,5.617000s,7,1,0.142857,50.000000,875.000000,0.057143,0,0
+6,14:42:31.965,Daanbot2,pistol,0.001000s,1,1,1.000000,50.000000,125.000000,0.400000,0,0
+7,14:42:33.087,Daanbot1,pistol,0.644000s,2,1,0.500000,50.000000,250.000000,0.200000,0,0
+8,14:42:34.285,Daanbot3,pistol,0.000000s,1,1,1.000000,50.000000,125.000000,0.400000,0,0
+9,14:42:38.303,Daanbot1,pistol,3.365000s,4,1,0.250000,50.000000,500.000000,0.100000,0,0
+10,14:42:40.195,Daanbot3,pistol,0.705000s,2,1,0.500000,50.000000,250.000000,0.200000,0,0
+11,14:42:43.122,Daanbot1,pistol,0.951000s,2,1,0.500000,50.000000,250.000000,0.200000,0,0
+12,14:42:45.444,Daanbot2,pistol,1.594000s,3,1,0.333333,50.000000,375.000000,0.133333,0,0
+13,14:42:46.668,Daanbot3,pistol,0.000000s,1,1,1.000000,50.000000,125.000000,0.400000,0,0
+14,14:42:48.608,Daanbot2,pistol,1.123000s,2,1,0.500000,50.000000,250.000000,0.200000,0,0
+15,14:42:50.031,Daanbot1,pistol,0.000000s,1,1,1.000000,50.000000,125.000000,0.400000,0,0
+16,14:42:52.564,Daanbot2,pistol,1.072000s,2,1,0.500000,50.000000,250.000000,0.200000,0,0
+17,14:42:58.685,Daanbot3,pistol,4.966000s,6,1,0.166667,50.000000,750.000000,0.066667,0,0
+18,14:43:00.596,Daanbot2,pistol,0.000000s,1,1,1.000000,50.000000,125.000000,0.400000,0,0
+19,14:43:04.930,Daanbot2,pistol,3.341000s,4,1,0.250000,50.000000,500.000000,0.100000,0,0
+20,14:43:07.043,Daanbot3,pistol,0.926000s,2,1,0.500000,50.000000,250.000000,0.200000,0,0
+21,14:43:10.030,Daanbot3,pistol,2.189000s,3,1,0.333333,50.000000,375.000000,0.133333,0,0
+22,14:43:11.997,Daanbot3,pistol,1.096000s,2,1,0.500000,50.000000,250.000000,0.200000,0,0
+23,14:43:12.983,Daanbot1,pistol,0.000000s,1,1,1.000000,50.000000,125.000000,0.400000,0,0
+
+Weapon,Shots,Hits,Damage Done,Damage Possible,,Sens Scale,Horiz Sens,Vert Sens,FOV,Hide Gun,Crosshair,Crosshair Scale,Crosshair Color,ADS Sens,ADS Zoom Scale
+pistol,58,23,1150.0,7250.0,
+
+Kills:,23
+Deaths:,0
+Fight Time:,35.173
+Time Remaining:,0.0
+Avg TTK:,3.069033
+Damage Done:,1150.0
+Total Overshots:,0
+Damage Taken:,0.0
+Hit Count:,23
+Miss Count:,35
+Midairs:,0
+Midaired:,0
+Directs:,0
+Directed:,0
+Reloads:,1
+Distance Traveled:,0.0
+MBS Points:,0.0
+Score:,23.0
+Scenario:,Leapcorn Pure
+Hash:,862be4000b26476d18661da250a0c939
+Game Version:,3.5.4.2024-05-24-14-41-42-7f44301bd0
+Challenge Start:,14:42:13.575
+Pause Count:,0
+Pause Duration:,0
+
+Input Lag:,0
+Max FPS (config):,999.0
+Sens Scale:,Valorant
+Sens Increment:,0.199886
+Horiz Sens:,0.2
+Vert Sens:,0.2
+DPI:,800
+FOV:,103.0
+FOVScale:,Valorant
+Hide Gun:,false
+Crosshair:,Kosei.png
+Crosshair Scale:,0.8
+Crosshair Color:,000000FF
+Resolution:,1920x1080
+Avg FPS:,226.404037
+Resolution Scale:,100.0

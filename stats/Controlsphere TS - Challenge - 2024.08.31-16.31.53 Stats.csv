@@ -1,0 +1,76 @@
+Kill #,Timestamp,Bot,Weapon,TTK,Shots,Hits,Accuracy,Damage Done,Damage Possible,Efficiency,Cheated,OverShots
+1,16:30:54.999,regen_dot,Track Master 100,1.676000s,35,7,0.200000,35.000000,175.000000,0.200000,0,5
+2,16:30:57.601,regen_dot,Track Master 100,2.301000s,47,7,0.148936,35.000000,235.000000,0.148936,0,5
+3,16:30:59.297,regen_dot,Track Master 100,1.398000s,29,7,0.241379,35.000000,145.000000,0.241379,0,5
+4,16:31:01.200,regen_dot,Track Master 100,1.596000s,33,7,0.212121,35.000000,165.000000,0.212121,0,5
+5,16:31:02.501,regen_dot,Track Master 100,1.001000s,21,7,0.333333,35.000000,105.000000,0.333333,0,5
+6,16:31:03.600,regen_dot,Track Master 100,0.799000s,17,7,0.411765,35.000000,85.000000,0.411765,0,5
+7,16:31:04.800,regen_dot,Track Master 100,0.898000s,19,7,0.368421,35.000000,95.000000,0.368421,0,5
+8,16:31:07.650,regen_dot,Track Master 100,2.547000s,52,7,0.134615,35.000000,260.000000,0.134615,0,5
+9,16:31:09.302,regen_dot,Track Master 100,1.348000s,28,7,0.250000,35.000000,140.000000,0.250000,0,5
+10,16:31:11.399,regen_dot,Track Master 100,1.802000s,37,7,0.189189,35.000000,185.000000,0.189189,0,5
+11,16:31:13.050,regen_dot,Track Master 100,1.351000s,28,7,0.250000,35.000000,140.000000,0.250000,0,5
+12,16:31:15.798,regen_dot,Track Master 100,2.453000s,50,11,0.220000,55.000000,250.000000,0.220000,0,5
+13,16:31:16.996,regen_dot,Track Master 100,0.901000s,19,3,0.157895,15.000000,95.000000,0.157895,0,5
+14,16:31:18.398,regen_dot,Track Master 100,1.101000s,23,7,0.304348,35.000000,115.000000,0.304348,0,5
+15,16:31:20.397,regen_dot,Track Master 100,1.701000s,35,7,0.200000,35.000000,175.000000,0.200000,0,5
+16,16:31:21.797,regen_dot,Track Master 100,1.099000s,23,7,0.304348,35.000000,115.000000,0.304348,0,5
+17,16:31:24.251,regen_dot,Track Master 100,2.152000s,44,7,0.159091,35.000000,220.000000,0.159091,0,5
+18,16:31:26.397,regen_dot,Track Master 100,1.849000s,38,7,0.184211,35.000000,190.000000,0.184211,0,5
+19,16:31:28.898,regen_dot,Track Master 100,2.197000s,45,7,0.155556,35.000000,225.000000,0.155556,0,5
+20,16:31:31.597,regen_dot,Track Master 100,2.398000s,49,7,0.142857,35.000000,245.000000,0.142857,0,5
+21,16:31:34.330,regen_dot,Track Master 100,2.432000s,49,7,0.142857,35.000000,245.000000,0.142857,0,5
+22,16:31:36.225,regen_dot,Track Master 100,1.599000s,33,7,0.212121,35.000000,165.000000,0.212121,0,5
+23,16:31:38.829,regen_dot,Track Master 100,2.301000s,47,7,0.148936,35.000000,235.000000,0.148936,0,5
+24,16:31:40.075,regen_dot,Track Master 100,0.950000s,20,7,0.350000,35.000000,100.000000,0.350000,0,5
+25,16:31:42.675,regen_dot,Track Master 100,2.298000s,47,9,0.191489,45.000000,235.000000,0.191489,0,5
+26,16:31:44.230,regen_dot,Track Master 100,1.250000s,26,5,0.192308,25.000000,130.000000,0.192308,0,5
+27,16:31:46.225,regen_dot,Track Master 100,1.700000s,35,7,0.200000,35.000000,175.000000,0.200000,0,5
+28,16:31:47.541,regen_dot,Track Master 100,1.050000s,22,7,0.318182,35.000000,110.000000,0.318182,0,4
+29,16:31:49.627,regen_dot,Track Master 100,1.799000s,37,7,0.189189,35.000000,185.000000,0.189189,0,5
+30,16:31:51.227,regen_dot,Track Master 100,1.302000s,27,7,0.259259,35.000000,135.000000,0.259259,0,5
+
+Weapon,Shots,Hits,Damage Done,Damage Possible,,Sens Scale,Horiz Sens,Vert Sens,FOV,Hide Gun,Crosshair,Crosshair Scale,Crosshair Color,ADS Sens,ADS Zoom Scale
+Track Master 100,1051,216,1080.0,5255.0,
+
+Kills:,30
+Deaths:,0
+Fight Time:,49.249001
+Time Remaining:,0.0
+Avg TTK:,1.999989
+Damage Done:,1080.0
+Total Overshots:,149
+Damage Taken:,0.0
+Hit Count:,216
+Miss Count:,835
+Midairs:,0
+Midaired:,0
+Directs:,0
+Directed:,0
+Reloads:,0
+Distance Traveled:,0.0
+MBS Points:,0.0
+Score:,3240.0
+Scenario:,Controlsphere TS
+Hash:,89a9af83014f63edeebeab4066e2442e
+Game Version:,3.5.4.2024-05-24-14-41-42-7f44301bd0
+Challenge Start:,16:30:53.059
+Pause Count:,0
+Pause Duration:,0
+
+Input Lag:,0
+Max FPS (config):,999.0
+Sens Scale:,Valorant
+Sens Increment:,0.199886
+Horiz Sens:,0.2
+Vert Sens:,0.2
+DPI:,800
+FOV:,103.0
+FOVScale:,Valorant
+Hide Gun:,false
+Crosshair:,interxhair.png
+Crosshair Scale:,1.0
+Crosshair Color:,000000FF
+Resolution:,1920x1080
+Avg FPS:,230.300034
+Resolution Scale:,100.0

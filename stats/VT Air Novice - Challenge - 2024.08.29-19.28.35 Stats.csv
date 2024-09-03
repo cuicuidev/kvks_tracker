@@ -1,0 +1,51 @@
+Kill #,Timestamp,Bot,Weapon,TTK,Shots,Hits,Accuracy,Damage Done,Damage Possible,Efficiency,Cheated,OverShots
+1,19:27:48.328,air1_far_short,Track Master 100,9.991000s,851,569,0.668625,5.690035,8.510099,0.668621,0,25
+2,19:28:00.216,air1F_close_long,Track Master 100,11.584001s,985,472,0.479188,4.720013,9.850130,0.479183,0,26
+3,19:28:11.982,air1F_close_short 7,Track Master 100,11.455001s,974,551,0.565708,5.510031,9.740128,0.565704,0,26
+4,19:28:23.751,air_close_short,Track Master 100,11.458000s,941,653,0.693943,6.530055,9.410120,0.693940,0,26
+5,19:28:35.223,air1F_far_long,Track Master 100,11.459001s,975,624,0.640000,6.240048,9.750128,0.639997,0,0
+
+Weapon,Shots,Hits,Damage Done,Damage Possible,,Sens Scale,Horiz Sens,Vert Sens,FOV,Hide Gun,Crosshair,Crosshair Scale,Crosshair Color,ADS Sens,ADS Zoom Scale
+Track Master 100,4726,2869,28.690561,47.258076,
+
+Kills:,5
+Deaths:,0
+Fight Time:,55.946999
+Time Remaining:,0.0
+Avg TTK:,13.453203
+Damage Done:,28.690561
+Total Overshots:,103
+Damage Taken:,0.0
+Hit Count:,2869
+Miss Count:,1857
+Midairs:,0
+Midaired:,0
+Directs:,0
+Directed:,0
+Reloads:,0
+Distance Traveled:,0.000002
+MBS Points:,0.0
+Score:,2869.056152
+Scenario:,VT Air Novice
+Hash:,7327a375295bccc0ef63fca4c9801b8b
+Game Version:,3.5.4.2024-05-24-14-41-42-7f44301bd0
+Challenge Start:,19:27:38.033
+Pause Count:,0
+Pause Duration:,0
+
+Input Lag:,0
+Max FPS (config):,999.0
+Sens Scale:,Valorant
+Sens Increment:,0.199886
+Horiz Sens:,0.2
+Vert Sens:,0.2
+DPI:,800
+FOV:,103.0
+FOVScale:,Valorant
+Hide Gun:,false
+Crosshair:,interxhair.png
+Crosshair Scale:,1.0
+Crosshair Color:,000000FF
+Resolution:,1920x1080
+Avg FPS:,253.375641
+Resolution Scale:,100.0

@@ -1,0 +1,51 @@
+Kill #,Timestamp,Bot,Weapon,TTK,Shots,Hits,Accuracy,Damage Done,Damage Possible,Efficiency,Cheated,OverShots
+1,15:20:22.932,air1_mixed_short_dash,LG,11.988001s,1081,525,0.485661,5.250025,10.810152,0.485657,0,25
+2,15:20:37.270,air_close_short,LG,14.048000s,1265,649,0.513043,6.490054,12.650194,0.513040,0,25
+3,15:20:51.604,air1_far_short,LG,14.049001s,1265,601,0.475099,6.010043,12.650194,0.475095,0,25
+4,15:21:05.943,air1F_close_short,LG,14.053000s,1265,521,0.411858,5.210024,12.650194,0.411853,0,26
+5,15:21:19.996,air1F_far_short,LG,14.045001s,1265,620,0.490119,6.200047,12.650194,0.490115,0,0
+
+Weapon,Shots,Hits,Damage Done,Damage Possible,,Sens Scale,Horiz Sens,Vert Sens,FOV,Hide Gun,Crosshair,Crosshair Scale,Crosshair Color,ADS Sens,ADS Zoom Scale
+LG,6141,2916,29.160572,61.405701,
+
+Kills:,5
+Deaths:,0
+Fight Time:,68.182999
+Time Remaining:,0.0
+Avg TTK:,15.407396
+Damage Done:,29.160572
+Total Overshots:,101
+Damage Taken:,0.0
+Hit Count:,2916
+Miss Count:,3225
+Midairs:,0
+Midaired:,0
+Directs:,0
+Directed:,0
+Reloads:,0
+Distance Traveled:,0.0
+MBS Points:,0.0
+Score:,2916.057129
+Scenario:,VT Plaza Novice
+Hash:,7faa0eaac5d5654c3105b0ff5b6c083c
+Game Version:,3.5.4.2024-05-24-14-41-42-7f44301bd0
+Challenge Start:,15:20:10.658
+Pause Count:,0
+Pause Duration:,0
+
+Input Lag:,0
+Max FPS (config):,999.0
+Sens Scale:,Valorant
+Sens Increment:,0.199886
+Horiz Sens:,0.2
+Vert Sens:,0.2
+DPI:,800
+FOV:,103.0
+FOVScale:,Valorant
+Hide Gun:,false
+Crosshair:,interxhair.png
+Crosshair Scale:,1.0
+Crosshair Color:,000000FF
+Resolution:,1920x1080
+Avg FPS:,264.123108
+Resolution Scale:,100.0

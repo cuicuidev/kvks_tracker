@@ -1,0 +1,53 @@
+Kill #,Timestamp,Bot,Weapon,TTK,Shots,Hits,Accuracy,Damage Done,Damage Possible,Efficiency,Cheated,OverShots
+1,20:45:17.408,air1_far_long,Track Master 100,27.476002s,2749,1000,0.363769,1000.000000,2749.000000,0.363769,0,25
+2,20:46:02.495,air1_far_short,Track Master 100,44.826004s,4317,1000,0.231642,1000.000000,4317.000000,0.231642,0,25
+3,20:46:58.438,air1F_close_long,Track Master 100,55.684002s,5413,1000,0.184740,1000.000000,5413.000000,0.184740,0,25
+4,20:47:43.323,air1F_close_short 7,Track Master 100,44.626003s,4294,1000,0.232883,1000.000000,4294.000000,0.232883,0,25
+5,20:48:20.132,air1F_far_long,Track Master 100,36.548000s,3476,1000,0.287687,1000.000000,3476.000000,0.287687,0,25
+6,20:48:52.203,air_close_short,Track Master 100,31.807001s,3040,1000,0.328947,1000.000000,3040.000000,0.328947,0,25
+7,20:49:52.892,air1F_far_short,Track Master 100,60.682003s,5875,1000,0.170213,1000.000000,5875.000000,0.170213,0,0
+
+Weapon,Shots,Hits,Damage Done,Damage Possible,,Sens Scale,Horiz Sens,Vert Sens,FOV,Hide Gun,Crosshair,Crosshair Scale,Crosshair Color,ADS Sens,ADS Zoom Scale
+Track Master 100,29164,7000,7000.0,29164.0,
+
+Kills:,7
+Deaths:,0
+Fight Time:,301.648987
+Time Remaining:,0.0
+Avg TTK:,43.344185
+Damage Done:,7000.0
+Total Overshots:,150
+Damage Taken:,0.0
+Hit Count:,7000
+Miss Count:,22164
+Midairs:,0
+Midaired:,0
+Directs:,0
+Directed:,0
+Reloads:,0
+Distance Traveled:,0.000002
+MBS Points:,0.0
+Score:,696.570068
+Scenario:,Air Voltaic Easy
+Hash:,95b1afb8273c129c99c75cce6a2ca5a7
+Game Version:,3.5.4.2024-05-24-14-41-42-7f44301bd0
+Challenge Start:,20:44:49.459
+Pause Count:,0
+Pause Duration:,0
+
+Input Lag:,0
+Max FPS (config):,999.0
+Sens Scale:,Valorant
+Sens Increment:,0.199886
+Horiz Sens:,0.2
+Vert Sens:,0.2
+DPI:,800
+FOV:,103.0
+FOVScale:,Valorant
+Hide Gun:,false
+Crosshair:,interxhair.png
+Crosshair Scale:,1.0
+Crosshair Color:,000000FF
+Resolution:,1920x1080
+Avg FPS:,201.952148
+Resolution Scale:,100.0

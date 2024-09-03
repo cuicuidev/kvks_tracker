@@ -1,0 +1,57 @@
+Kill #,Timestamp,Bot,Weapon,TTK,Shots,Hits,Accuracy,Damage Done,Damage Possible,Efficiency,Cheated,OverShots
+1,16:28:57.291,target_decay,pistol,0.000000s,1,1,1.000000,25.000000,50.000000,0.500000,0,0
+2,16:28:59.908,target_decay,pistol,1.777000s,4,1,0.250000,25.000000,200.000000,0.125000,0,0
+3,16:29:17.244,target_decay,pistol,16.655001s,26,1,0.038462,25.000000,1300.000000,0.019231,0,0
+4,16:29:23.231,target_decay,pistol,5.317000s,9,1,0.111111,25.000000,450.000000,0.055556,0,0
+5,16:29:25.903,target_decay,pistol,2.013000s,4,1,0.250000,25.000000,200.000000,0.125000,0,0
+6,16:29:39.911,target_decay,pistol,13.318001s,21,1,0.047619,25.000000,1050.000000,0.023810,0,0
+7,16:29:49.916,target_decay,pistol,9.318001s,15,1,0.066667,25.000000,750.000000,0.033333,0,0
+8,16:29:51.210,target_decay,pistol,0.712000s,2,1,0.500000,25.000000,100.000000,0.250000,0,0
+9,16:29:53.197,target_decay,pistol,1.328000s,3,1,0.333333,25.000000,150.000000,0.166667,0,0
+10,16:29:53.863,target_decay,pistol,0.000000s,1,1,1.000000,25.000000,50.000000,0.500000,0,0
+11,16:29:55.204,target_decay,pistol,0.678000s,2,1,0.500000,25.000000,100.000000,0.250000,0,0
+
+Weapon,Shots,Hits,Damage Done,Damage Possible,,Sens Scale,Horiz Sens,Vert Sens,FOV,Hide Gun,Crosshair,Crosshair Scale,Crosshair Color,ADS Sens,ADS Zoom Scale
+pistol,90,11,275.0,4500.0,
+
+Kills:,11
+Deaths:,0
+Fight Time:,51.116001
+Time Remaining:,0.0
+Avg TTK:,5.454514
+Damage Done:,275.0
+Total Overshots:,0
+Damage Taken:,0.0
+Hit Count:,11
+Miss Count:,79
+Midairs:,0
+Midaired:,0
+Directs:,0
+Directed:,0
+Reloads:,0
+Distance Traveled:,0.0
+MBS Points:,0.0
+Score:,134.444443
+Scenario:,Reflex Micro Flick 250ms
+Hash:,de876713adc34544fae2f05415d1300f
+Game Version:,3.5.4.2024-05-24-14-41-42-7f44301bd0
+Challenge Start:,16:28:56.677
+Pause Count:,0
+Pause Duration:,0
+
+Input Lag:,0
+Max FPS (config):,999.0
+Sens Scale:,Valorant
+Sens Increment:,0.3498
+Horiz Sens:,0.35
+Vert Sens:,0.35
+DPI:,800
+FOV:,103.0
+FOVScale:,Valorant
+Hide Gun:,false
+Crosshair:,interxhair.png
+Crosshair Scale:,1.0
+Crosshair Color:,000000FF
+Resolution:,1920x1080
+Avg FPS:,268.793427
+Resolution Scale:,100.0

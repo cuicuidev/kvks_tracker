@@ -1,0 +1,90 @@
+Kill #,Timestamp,Bot,Weapon,TTK,Shots,Hits,Accuracy,Damage Done,Damage Possible,Efficiency,Cheated,OverShots
+1,21:47:24.840,consecutive_dot_L,Track Master 100,1.033000s,107,25,0.233645,1.000000,4.279997,0.233645,0,25
+2,21:47:26.033,consecutive_dot_L2,Track Master 100,0.931000s,94,25,0.265957,1.000000,3.759998,0.265958,0,25
+3,21:47:27.478,consecutive_dot_R2,Track Master 100,1.253000s,126,25,0.198413,1.000000,5.039997,0.198413,0,18
+4,21:47:28.634,consecutive_dot_R,Track Master 100,0.901000s,91,25,0.274725,1.000000,3.639998,0.274725,0,25
+5,21:47:30.022,consecutive_dot_L,Track Master 100,1.301000s,131,25,0.190840,1.000000,5.239996,0.190840,0,7
+6,21:47:31.321,consecutive_dot_L2,Track Master 100,1.045000s,106,25,0.235849,1.000000,4.239997,0.235849,0,25
+7,21:47:32.681,consecutive_dot_R2,Track Master 100,1.288000s,130,25,0.192308,1.000000,5.199996,0.192308,0,5
+8,21:47:33.880,consecutive_dot_R,Track Master 100,0.947000s,96,25,0.260417,1.000000,3.839998,0.260417,0,25
+9,21:47:35.020,consecutive_dot_L,Track Master 100,0.875000s,89,25,0.280899,1.000000,3.559998,0.280899,0,25
+10,21:47:36.133,consecutive_dot_L2,Track Master 100,0.849000s,86,25,0.290698,1.000000,3.439998,0.290698,0,25
+11,21:47:37.362,consecutive_dot_R2,Track Master 100,0.973000s,98,25,0.255102,1.000000,3.919997,0.255102,0,25
+12,21:47:39.163,consecutive_dot_R,Track Master 100,1.539000s,155,25,0.161290,1.000000,6.199996,0.161290,0,25
+13,21:47:41.210,consecutive_dot_L,Track Master 100,1.789000s,180,25,0.138889,1.000000,7.199995,0.138889,0,25
+14,21:47:42.922,consecutive_dot_L2,Track Master 100,1.450000s,146,25,0.171233,1.000000,5.839996,0.171233,0,25
+15,21:47:44.280,consecutive_dot_R2,Track Master 100,1.198000s,121,25,0.206612,1.000000,4.839997,0.206612,0,14
+16,21:47:45.161,consecutive_dot_R,Track Master 100,0.626000s,64,25,0.390625,1.000000,2.559999,0.390625,0,25
+17,21:47:46.133,consecutive_dot_L,Track Master 100,0.708000s,72,25,0.347222,1.000000,2.879998,0.347222,0,25
+18,21:47:47.763,consecutive_dot_L2,Track Master 100,1.371000s,138,25,0.181159,1.000000,5.519996,0.181160,0,25
+19,21:47:48.925,consecutive_dot_R2,Track Master 100,0.903000s,91,25,0.274725,1.000000,3.639998,0.274725,0,25
+20,21:47:50.810,consecutive_dot_R,Track Master 100,1.629000s,164,25,0.152439,1.000000,6.559995,0.152439,0,25
+21,21:47:52.109,consecutive_dot_L,Track Master 100,1.038000s,105,25,0.238095,1.000000,4.199997,0.238095,0,25
+22,21:47:52.923,consecutive_dot_L2,Track Master 100,0.551000s,56,25,0.446429,1.000000,2.239999,0.446429,0,25
+23,21:47:54.856,consecutive_dot_R2,Track Master 100,1.675000s,168,25,0.148810,1.000000,6.719995,0.148810,0,25
+24,21:47:56.391,consecutive_dot_R,Track Master 100,1.277000s,129,25,0.193798,1.000000,5.159997,0.193799,0,25
+25,21:47:57.676,consecutive_dot_L,Track Master 100,1.016000s,103,25,0.242718,1.000000,4.119998,0.242719,0,25
+26,21:47:59.552,consecutive_dot_L2,Track Master 100,1.619000s,163,25,0.153374,1.000000,6.519995,0.153374,0,25
+27,21:48:01.009,consecutive_dot_R2,Track Master 100,1.201000s,121,25,0.206612,1.000000,4.839997,0.206612,0,25
+28,21:48:01.887,consecutive_dot_R,Track Master 100,0.612000s,62,25,0.403226,1.000000,2.479999,0.403226,0,25
+29,21:48:03.635,consecutive_dot_L,Track Master 100,1.487000s,150,25,0.166667,1.000000,5.999996,0.166667,0,25
+30,21:48:04.608,consecutive_dot_L2,Track Master 100,0.712000s,72,25,0.347222,1.000000,2.879998,0.347222,0,25
+31,21:48:05.932,consecutive_dot_R2,Track Master 100,1.069000s,108,25,0.231481,1.000000,4.319997,0.231482,0,25
+32,21:48:07.222,consecutive_dot_R,Track Master 100,1.029000s,104,25,0.240385,1.000000,4.159997,0.240385,0,25
+33,21:48:08.689,consecutive_dot_L,Track Master 100,1.423000s,143,25,0.174825,1.000000,5.719996,0.174825,0,3
+34,21:48:09.734,consecutive_dot_L2,Track Master 100,0.790000s,80,25,0.312500,1.000000,3.199998,0.312500,0,25
+35,21:48:10.582,consecutive_dot_R2,Track Master 100,0.592000s,60,25,0.416667,1.000000,2.399999,0.416667,0,25
+36,21:48:11.731,consecutive_dot_R,Track Master 100,0.893000s,90,25,0.277778,1.000000,3.599998,0.277778,0,25
+37,21:48:13.103,consecutive_dot_L,Track Master 100,1.109000s,112,25,0.223214,1.000000,4.479997,0.223214,0,25
+38,21:48:14.320,consecutive_dot_L2,Track Master 100,0.960000s,97,25,0.257732,1.000000,3.879997,0.257732,0,25
+39,21:48:15.291,consecutive_dot_R2,Track Master 100,0.712000s,72,25,0.347222,1.000000,2.879998,0.347222,0,25
+40,21:48:18.073,consecutive_dot_R,Track Master 100,2.517000s,253,25,0.098814,1.000000,10.119992,0.098814,0,25
+41,21:48:19.549,consecutive_dot_L,Track Master 100,1.272000s,128,25,0.195312,1.000000,5.119997,0.195313,0,19
+42,21:48:20.542,consecutive_dot_L2,Track Master 100,0.741000s,75,25,0.333333,1.000000,2.999998,0.333334,0,25
+43,21:48:21.765,consecutive_dot_R2,Track Master 100,0.963000s,97,25,0.257732,1.000000,3.879997,0.257732,0,25
+44,21:48:22.929,consecutive_dot_R,Track Master 100,1.100000s,111,25,0.225225,1.000000,4.439997,0.225225,0,5
+
+Weapon,Shots,Hits,Damage Done,Damage Possible,,Sens Scale,Horiz Sens,Vert Sens,FOV,Hide Gun,Crosshair,Crosshair Scale,Crosshair Color,ADS Sens,ADS Zoom Scale
+Track Master 100,4944,1100,44.000626,197.750839,
+
+Kills:,44
+Deaths:,0
+Fight Time:,48.966999
+Time Remaining:,0.0
+Avg TTK:,1.363629
+Damage Done:,44.000626
+Total Overshots:,996
+Damage Taken:,0.0
+Hit Count:,1100
+Miss Count:,3844
+Midairs:,0
+Midaired:,0
+Directs:,0
+Directed:,0
+Reloads:,0
+Distance Traveled:,0.0
+MBS Points:,0.0
+Score:,44.000626
+Scenario:,Consecutive Tracking
+Hash:,a73b057bbe336cc05bf45d171f7c9070
+Game Version:,3.5.4.2024-05-24-14-41-42-7f44301bd0
+Challenge Start:,21:47:22.931
+Pause Count:,0
+Pause Duration:,0
+
+Input Lag:,0
+Max FPS (config):,999.0
+Sens Scale:,Valorant
+Sens Increment:,0.199886
+Horiz Sens:,0.2
+Vert Sens:,0.2
+DPI:,800
+FOV:,103.0
+FOVScale:,Valorant
+Hide Gun:,false
+Crosshair:,interxhair.png
+Crosshair Scale:,1.0
+Crosshair Color:,000000FF
+Resolution:,1920x1080
+Avg FPS:,195.196899
+Resolution Scale:,100.0

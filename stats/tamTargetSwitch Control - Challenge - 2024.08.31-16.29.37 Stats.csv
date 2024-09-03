@@ -1,0 +1,60 @@
+Kill #,Timestamp,Bot,Weapon,TTK,Shots,Hits,Accuracy,Damage Done,Damage Possible,Efficiency,Cheated,OverShots
+1,16:28:43.512,regen_dot,Poke-Drill,5.701000s,574,188,0.327526,188.000000,574.000000,0.327526,0,25
+2,16:28:45.421,regen_dot,Poke-Drill,1.650000s,166,57,0.343374,57.000000,166.000000,0.343374,0,25
+3,16:28:48.811,regen_dot,Poke-Drill,3.128000s,314,103,0.328025,103.000000,314.000000,0.328025,0,25
+4,16:28:50.962,regen_dot,Poke-Drill,1.889000s,190,71,0.373684,71.000000,190.000000,0.373684,0,25
+5,16:28:53.992,regen_dot,Poke-Drill,2.770000s,278,89,0.320144,89.000000,278.000000,0.320144,0,25
+6,16:28:59.304,regen_dot,Poke-Drill,5.050000s,506,178,0.351779,178.000000,506.000000,0.351779,0,25
+7,16:29:08.854,regen_dot,Poke-Drill,9.289001s,930,255,0.274194,255.000000,930.000000,0.274194,0,25
+8,16:29:12.125,regen_dot,Poke-Drill,3.012000s,302,122,0.403974,122.000000,302.000000,0.403974,0,25
+9,16:29:15.490,regen_dot,Poke-Drill,3.110000s,312,110,0.352564,110.000000,312.000000,0.352564,0,25
+10,16:29:19.523,regen_dot,Poke-Drill,3.772000s,378,126,0.333333,126.000000,378.000000,0.333333,0,25
+11,16:29:24.553,regen_dot,Poke-Drill,4.771000s,476,172,0.361345,172.000000,476.000000,0.361345,0,25
+12,16:29:28.164,regen_dot,Poke-Drill,3.351000s,336,96,0.285714,96.000000,336.000000,0.285714,0,25
+13,16:29:30.464,regen_dot,Poke-Drill,2.039000s,205,79,0.385366,79.000000,205.000000,0.385366,0,25
+14,16:29:36.150,regen_dot,Poke-Drill,5.427000s,544,205,0.376838,205.000000,544.000000,0.376838,0,25
+
+Weapon,Shots,Hits,Damage Done,Damage Possible,,Sens Scale,Horiz Sens,Vert Sens,FOV,Hide Gun,Crosshair,Crosshair Scale,Crosshair Color,ADS Sens,ADS Zoom Scale
+Poke-Drill,5649,1891,1891.0,5649.0,
+
+Kills:,14
+Deaths:,0
+Fight Time:,54.959999
+Time Remaining:,0.0
+Avg TTK:,4.28569
+Damage Done:,1891.0
+Total Overshots:,350
+Damage Taken:,0.0
+Hit Count:,1891
+Miss Count:,3758
+Midairs:,0
+Midaired:,0
+Directs:,0
+Directed:,0
+Reloads:,0
+Distance Traveled:,0.0
+MBS Points:,0.0
+Score:,14.0
+Scenario:,tamTargetSwitch Control
+Hash:,3e539685ecb41045d18697e346a23497
+Game Version:,3.5.4.2024-05-24-14-41-42-7f44301bd0
+Challenge Start:,16:28:37.544
+Pause Count:,0
+Pause Duration:,0
+
+Input Lag:,0
+Max FPS (config):,999.0
+Sens Scale:,Valorant
+Sens Increment:,0.199886
+Horiz Sens:,0.2
+Vert Sens:,0.2
+DPI:,800
+FOV:,103.0
+FOVScale:,Valorant
+Hide Gun:,false
+Crosshair:,interxhair.png
+Crosshair Scale:,1.0
+Crosshair Color:,000000FF
+Resolution:,1920x1080
+Avg FPS:,241.836411
+Resolution Scale:,100.0
