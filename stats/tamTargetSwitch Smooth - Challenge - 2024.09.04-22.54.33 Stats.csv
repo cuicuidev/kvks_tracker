@@ -1,0 +1,57 @@
+Kill #,Timestamp,Bot,Weapon,TTK,Shots,Hits,Accuracy,Damage Done,Damage Possible,Efficiency,Cheated,OverShots
+1,22:53:40.107,regen_dot,Poke-Drill,6.166000s,621,236,0.380032,236.000000,621.000000,0.380032,0,25
+2,22:53:49.157,regen_dot,Poke-Drill,8.782001s,880,348,0.395455,348.000000,880.000000,0.395455,0,25
+3,22:53:54.286,regen_dot,Poke-Drill,4.865000s,488,232,0.475410,232.000000,488.000000,0.475410,0,25
+4,22:53:58.427,regen_dot,Poke-Drill,3.878000s,389,118,0.303342,118.000000,389.000000,0.303342,0,25
+5,22:53:59.523,regen_dot,Poke-Drill,0.837000s,85,60,0.705882,60.000000,85.000000,0.705882,0,25
+6,22:54:09.384,regen_dot,Poke-Drill,9.604000s,961,373,0.388137,373.000000,961.000000,0.388137,0,25
+7,22:54:14.902,regen_dot,Poke-Drill,5.260000s,527,209,0.396584,209.000000,527.000000,0.396584,0,24
+8,22:54:17.606,regen_dot,Poke-Drill,2.452000s,246,139,0.565041,139.000000,246.000000,0.565041,0,25
+9,22:54:21.350,regen_dot,Poke-Drill,3.487000s,350,116,0.331429,116.000000,350.000000,0.331429,0,25
+10,22:54:26.873,regen_dot,Poke-Drill,5.256000s,523,225,0.430210,225.000000,523.000000,0.430210,0,25
+11,22:54:28.575,regen_dot,Poke-Drill,1.438000s,145,53,0.365517,53.000000,145.000000,0.365517,0,25
+
+Weapon,Shots,Hits,Damage Done,Damage Possible,,Sens Scale,Horiz Sens,Vert Sens,FOV,Hide Gun,Crosshair,Crosshair Scale,Crosshair Color,ADS Sens,ADS Zoom Scale
+Poke-Drill,5723,2313,2313.0,5723.0,
+
+Kills:,11
+Deaths:,0
+Fight Time:,52.025002
+Time Remaining:,0.0
+Avg TTK:,5.454514
+Damage Done:,2313.0
+Total Overshots:,274
+Damage Taken:,0.0
+Hit Count:,2313
+Miss Count:,3410
+Midairs:,0
+Midaired:,0
+Directs:,0
+Directed:,0
+Reloads:,0
+Distance Traveled:,0.0
+MBS Points:,0.0
+Score:,11.0
+Scenario:,tamTargetSwitch Smooth
+Hash:,ebaed4d804f7bb0b1fa3961826398e1f
+Game Version:,3.5.4.2024-05-24-14-41-42-7f44301bd0
+Challenge Start:,22:53:33.669
+Pause Count:,0
+Pause Duration:,0
+
+Input Lag:,0
+Max FPS (config):,999.0
+Sens Scale:,Valorant
+Sens Increment:,0.199886
+Horiz Sens:,0.2
+Vert Sens:,0.2
+DPI:,800
+FOV:,103.0
+FOVScale:,Valorant
+Hide Gun:,false
+Crosshair:,Kosei.png
+Crosshair Scale:,0.8
+Crosshair Color:,000000FF
+Resolution:,1920x1080
+Avg FPS:,150.877014
+Resolution Scale:,100.0

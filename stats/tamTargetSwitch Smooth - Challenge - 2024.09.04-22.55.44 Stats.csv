@@ -1,0 +1,54 @@
+Kill #,Timestamp,Bot,Weapon,TTK,Shots,Hits,Accuracy,Damage Done,Damage Possible,Efficiency,Cheated,OverShots
+1,22:54:55.110,regen_dot,Poke-Drill,10.787001s,1084,388,0.357934,388.000000,1084.000000,0.357934,0,26
+2,22:54:58.423,regen_dot,Poke-Drill,3.046000s,306,94,0.307190,94.000000,306.000000,0.307190,0,25
+3,22:55:00.691,regen_dot,Poke-Drill,2.006000s,202,84,0.415842,84.000000,202.000000,0.415842,0,25
+4,22:55:07.683,regen_dot,Poke-Drill,6.731000s,674,233,0.345697,233.000000,674.000000,0.345697,0,25
+5,22:55:12.302,regen_dot,Poke-Drill,4.360000s,437,148,0.338673,148.000000,437.000000,0.338673,0,25
+6,22:55:16.062,regen_dot,Poke-Drill,3.502000s,351,136,0.387464,136.000000,351.000000,0.387464,0,25
+7,22:55:26.987,regen_dot,Poke-Drill,10.661000s,1067,452,0.423618,452.000000,1067.000000,0.423618,0,25
+8,22:55:38.151,regen_dot,Poke-Drill,10.907001s,1092,408,0.373626,408.000000,1092.000000,0.373626,0,25
+
+Weapon,Shots,Hits,Damage Done,Damage Possible,,Sens Scale,Horiz Sens,Vert Sens,FOV,Hide Gun,Crosshair,Crosshair Scale,Crosshair Color,ADS Sens,ADS Zoom Scale
+Poke-Drill,5800,2173,2173.0,5800.0,
+
+Kills:,8
+Deaths:,0
+Fight Time:,52.0
+Time Remaining:,0.0
+Avg TTK:,7.499957
+Damage Done:,2173.0
+Total Overshots:,201
+Damage Taken:,0.0
+Hit Count:,2173
+Miss Count:,3627
+Midairs:,0
+Midaired:,0
+Directs:,0
+Directed:,0
+Reloads:,0
+Distance Traveled:,0.0
+MBS Points:,0.0
+Score:,8.0
+Scenario:,tamTargetSwitch Smooth
+Hash:,ebaed4d804f7bb0b1fa3961826398e1f
+Game Version:,3.5.4.2024-05-24-14-41-42-7f44301bd0
+Challenge Start:,22:54:44.046
+Pause Count:,0
+Pause Duration:,0
+
+Input Lag:,0
+Max FPS (config):,999.0
+Sens Scale:,Valorant
+Sens Increment:,0.199886
+Horiz Sens:,0.2
+Vert Sens:,0.2
+DPI:,800
+FOV:,103.0
+FOVScale:,Valorant
+Hide Gun:,false
+Crosshair:,Kosei.png
+Crosshair Scale:,0.8
+Crosshair Color:,000000FF
+Resolution:,1920x1080
+Avg FPS:,150.687668
+Resolution Scale:,100.0

@@ -1,0 +1,53 @@
+Kill #,Timestamp,Bot,Weapon,TTK,Shots,Hits,Accuracy,Damage Done,Damage Possible,Efficiency,Cheated,OverShots
+1,23:45:12.908,air1_mixed_short_dash,LG,11.992001s,1201,383,0.318901,3.829997,12.010180,0.318896,0,25
+2,23:45:27.008,air_close_short,LG,13.845000s,1385,467,0.337184,4.670012,13.850222,0.337180,0,25
+3,23:45:41.110,air1_far_short,LG,13.847001s,1385,500,0.361011,5.000020,13.850222,0.361006,0,25
+4,23:45:55.211,air1F_close_short,LG,13.846001s,1385,393,0.283754,3.929997,13.850222,0.283750,0,26
+5,23:46:09.063,air1F_far_short,LG,13.838000s,1385,315,0.227437,3.149997,13.850222,0.227433,0,0
+
+Weapon,Shots,Hits,Damage Done,Damage Possible,,Sens Scale,Horiz Sens,Vert Sens,FOV,Hide Gun,Crosshair,Crosshair Scale,Crosshair Color,ADS Sens,ADS Zoom Scale,Avg Target Scale,Avg Time Dilation
+LG,6741,2058,20.580376,67.405991,
+
+Kills:,5
+Deaths:,0
+Fight Time:,67.367996
+Time Remaining:,0.0
+Avg TTK:,13.68
+Damage Done:,20.580376
+Total Overshots:,101
+Damage Taken:,0.0
+Hit Count:,2058
+Miss Count:,4683
+Midairs:,0
+Midaired:,0
+Directs:,0
+Directed:,0
+Reloads:,0
+Distance Traveled:,0.0
+MBS Points:,0.0
+Score:,2058.037598
+Scenario:,VT Plaza Intermediate
+Hash:,6f7f7473046a0fe6dfc8c1ce151e2a71
+Game Version:,3.6.0.2024-09-03-20-01-54-cb47c9aa95
+Challenge Start:,23:45:00.659
+Pause Count:,0
+Pause Duration:,0
+Avg Target Scale:,1.0
+Avg Time Dilation:,1.0
+
+Input Lag:,0
+Max FPS (config):,999.0
+Sens Scale:,Valorant
+Sens Increment:,0.199886
+Horiz Sens:,0.2
+Vert Sens:,0.2
+DPI:,800
+FOV:,103.0
+FOVScale:,Valorant
+Hide Gun:,false
+Crosshair:,Kosei.png
+Crosshair Scale:,0.8
+Crosshair Color:,000000FF
+Resolution:,1920x1080
+Avg FPS:,222.798203
+Resolution Scale:,100.0

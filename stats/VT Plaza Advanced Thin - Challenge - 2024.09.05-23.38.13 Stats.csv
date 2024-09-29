@@ -1,0 +1,53 @@
+Kill #,Timestamp,Bot,Weapon,TTK,Shots,Hits,Accuracy,Damage Done,Damage Possible,Efficiency,Cheated,OverShots
+1,23:37:17.521,air1_mixed_short_dash,LG,11.988001s,1201,257,0.213988,2.569998,12.010180,0.213985,0,25
+2,23:37:31.624,air_close_short,LG,13.840001s,1385,178,0.128520,1.779999,13.850222,0.128518,0,25
+3,23:37:45.728,air1_far_short,LG,13.847001s,1385,201,0.145126,2.009999,13.850222,0.145124,0,26
+4,23:37:59.828,air1F_close_short,LG,13.836000s,1385,163,0.117690,1.629999,13.850222,0.117688,0,25
+5,23:38:13.681,air1F_far_short,LG,13.841001s,1385,204,0.147292,2.039999,13.850222,0.147290,0,0
+
+Weapon,Shots,Hits,Damage Done,Damage Possible,,Sens Scale,Horiz Sens,Vert Sens,FOV,Hide Gun,Crosshair,Crosshair Scale,Crosshair Color,ADS Sens,ADS Zoom Scale,Avg Target Scale,Avg Time Dilation
+LG,6741,1003,10.030134,67.405991,
+
+Kills:,5
+Deaths:,0
+Fight Time:,67.351997
+Time Remaining:,0.0
+Avg TTK:,13.68
+Damage Done:,10.030134
+Total Overshots:,101
+Damage Taken:,0.0
+Hit Count:,1003
+Miss Count:,5738
+Midairs:,0
+Midaired:,0
+Directs:,0
+Directed:,0
+Reloads:,0
+Distance Traveled:,0.0
+MBS Points:,0.0
+Score:,1024.603394
+Scenario:,VT Plaza Advanced Thin
+Hash:,920077d8fcc78ba84e87bf1970aa9448
+Game Version:,3.6.0.2024-09-03-20-01-54-cb47c9aa95
+Challenge Start:,23:37:05.275
+Pause Count:,0
+Pause Duration:,0
+Avg Target Scale:,1.0
+Avg Time Dilation:,1.0
+
+Input Lag:,0
+Max FPS (config):,999.0
+Sens Scale:,Valorant
+Sens Increment:,0.199886
+Horiz Sens:,0.2
+Vert Sens:,0.2
+DPI:,800
+FOV:,103.0
+FOVScale:,Valorant
+Hide Gun:,false
+Crosshair:,Kosei.png
+Crosshair Scale:,0.8
+Crosshair Color:,000000FF
+Resolution:,1920x1080
+Avg FPS:,225.553604
+Resolution Scale:,100.0

@@ -1,0 +1,58 @@
+Kill #,Timestamp,Bot,Weapon,TTK,Shots,Hits,Accuracy,Damage Done,Damage Possible,Efficiency,Cheated,OverShots
+1,22:45:30.812,regen_dot,Poke-Drill,4.423000s,447,117,0.261745,117.000000,447.000000,0.261745,0,25
+2,22:45:37.403,regen_dot,Poke-Drill,6.326000s,634,181,0.285489,181.000000,634.000000,0.285489,0,25
+3,22:45:42.068,regen_dot,Poke-Drill,4.403000s,441,137,0.310658,137.000000,441.000000,0.310658,0,25
+4,22:45:45.154,regen_dot,Poke-Drill,2.825000s,284,105,0.369718,105.000000,284.000000,0.369718,0,25
+5,22:45:52.084,regen_dot,Poke-Drill,6.672000s,668,222,0.332335,222.000000,668.000000,0.332335,0,25
+6,22:45:54.368,regen_dot,Poke-Drill,2.026000s,203,70,0.344828,70.000000,203.000000,0.344828,0,25
+7,22:45:57.306,regen_dot,Poke-Drill,2.675000s,268,88,0.328358,88.000000,268.000000,0.328358,0,26
+8,22:46:09.893,regen_dot,Poke-Drill,12.326000s,1233,382,0.309813,382.000000,1233.000000,0.309813,0,25
+9,22:46:11.993,regen_dot,Poke-Drill,1.837000s,185,85,0.459459,85.000000,185.000000,0.459459,0,25
+10,22:46:17.728,regen_dot,Poke-Drill,5.475000s,549,172,0.313297,172.000000,549.000000,0.313297,0,25
+11,22:46:19.207,regen_dot,Poke-Drill,1.216000s,122,63,0.516393,63.000000,122.000000,0.516393,0,26
+12,22:46:22.988,regen_dot,Poke-Drill,3.519000s,353,143,0.405099,143.000000,353.000000,0.405099,0,25
+
+Weapon,Shots,Hits,Damage Done,Damage Possible,,Sens Scale,Horiz Sens,Vert Sens,FOV,Hide Gun,Crosshair,Crosshair Scale,Crosshair Color,ADS Sens,ADS Zoom Scale
+Poke-Drill,5699,1883,1883.0,5699.0,
+
+Kills:,12
+Deaths:,0
+Fight Time:,53.723
+Time Remaining:,0.0
+Avg TTK:,4.999971
+Damage Done:,1883.0
+Total Overshots:,302
+Damage Taken:,0.0
+Hit Count:,1883
+Miss Count:,3816
+Midairs:,0
+Midaired:,0
+Directs:,0
+Directed:,0
+Reloads:,0
+Distance Traveled:,0.0
+MBS Points:,0.0
+Score:,12.0
+Scenario:,tamTargetSwitch Control
+Hash:,3e539685ecb41045d18697e346a23497
+Game Version:,3.5.4.2024-05-24-14-41-42-7f44301bd0
+Challenge Start:,22:45:26.122
+Pause Count:,0
+Pause Duration:,0
+
+Input Lag:,0
+Max FPS (config):,999.0
+Sens Scale:,Valorant
+Sens Increment:,0.199886
+Horiz Sens:,0.2
+Vert Sens:,0.2
+DPI:,800
+FOV:,103.0
+FOVScale:,Valorant
+Hide Gun:,false
+Crosshair:,Kosei.png
+Crosshair Scale:,0.8
+Crosshair Color:,000000FF
+Resolution:,1920x1080
+Avg FPS:,156.699982
+Resolution Scale:,100.0

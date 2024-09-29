@@ -1,0 +1,51 @@
+Kill #,Timestamp,Bot,Weapon,TTK,Shots,Hits,Accuracy,Damage Done,Damage Possible,Efficiency,Cheated,OverShots
+1,23:52:39.501,air1_far_short,Track Master 100,9.995001s,961,376,0.391259,3.759997,9.610125,0.391254,0,25
+2,23:52:51.066,air1F_close_long,Track Master 100,11.299001s,1085,485,0.447005,4.850016,10.850153,0.447000,0,26
+3,23:53:02.630,air1F_close_short 7,Track Master 100,11.291000s,1084,377,0.347786,3.769997,10.840153,0.347781,0,26
+4,23:53:14.195,air_close_short,Track Master 100,11.290001s,1085,453,0.417512,4.530009,10.850153,0.417506,0,25
+5,23:53:25.497,air1F_far_short,Track Master 100,11.291000s,1085,356,0.328111,3.559997,10.850153,0.328106,0,0
+
+Weapon,Shots,Hits,Damage Done,Damage Possible,,Sens Scale,Horiz Sens,Vert Sens,FOV,Hide Gun,Crosshair,Crosshair Scale,Crosshair Color,ADS Sens,ADS Zoom Scale
+Track Master 100,5300,2047,20.470373,52.997112,
+
+Kills:,5
+Deaths:,0
+Fight Time:,55.166
+Time Remaining:,0.0
+Avg TTK:,11.718796
+Damage Done:,20.470373
+Total Overshots:,102
+Damage Taken:,0.0
+Hit Count:,2047
+Miss Count:,3253
+Midairs:,0
+Midaired:,0
+Directs:,0
+Directed:,0
+Reloads:,0
+Distance Traveled:,0.000002
+MBS Points:,0.0
+Score:,2047.037354
+Scenario:,VT Air Intermediate
+Hash:,6c8a32e397f020abbfa5cc2b07879fab
+Game Version:,3.5.4.2024-05-24-14-41-42-7f44301bd0
+Challenge Start:,23:52:29.237
+Pause Count:,0
+Pause Duration:,0
+
+Input Lag:,0
+Max FPS (config):,999.0
+Sens Scale:,Valorant
+Sens Increment:,0.199886
+Horiz Sens:,0.2
+Vert Sens:,0.2
+DPI:,800
+FOV:,103.0
+FOVScale:,Valorant
+Hide Gun:,false
+Crosshair:,Kosei.png
+Crosshair Scale:,0.8
+Crosshair Color:,000000FF
+Resolution:,1920x1080
+Avg FPS:,236.637436
+Resolution Scale:,100.0
