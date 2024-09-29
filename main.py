@@ -1,6 +1,6 @@
 from setup import gui
 
-def main():
+def main() -> None:
     gui.main()
 
 if __name__ == "__main__":

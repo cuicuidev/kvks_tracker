@@ -10,18 +10,16 @@ import config
 
 class Setup(tk.Tk):
 
-    def __init__(self):
-        print("Setup __init__")
+    def __init__(self) -> None:
         super().__init__()
 
         self.title("KovaaK's - Voltaic Tracker Setup")
-        self.geometry("600x300")
+        self.geometry("600x350")
         self.resizable(False, False)
 
         self.config = config.Config()
 
-        # Authentication GUI and logic elements
-
+        # Authentication GUI elements
         self._username = tk.StringVar(self, self.config.username)
         self._password = tk.StringVar(self, self.config.password)
 
@@ -33,26 +31,24 @@ class Setup(tk.Tk):
         self.sign_up_label = tk.Label(self, text="Don't have an account?")
         self.sign_up_button = tk.Button(self, text="Sign Up", command=self._sign_up)
 
-        # Authentication error messages
         self.invalid_credentials_label = tk.Label(self, text="Invalid credentials")
 
-        # KovaaK's config GUI and logic elements
-
+        # KovaaK's config GUI elements
         self._kvks_dir = tk.StringVar(self, self.config.kvks_dir)
 
         self.kvks_dir_label = tk.Label(self, text="KovaaK's directory")
-        self.kvks_dir_entry = tk.Entry(self, textvariable=self._kvks_dir)
+        self.kvks_dir_entry = tk.Entry(self, textvariable=self._kvks_dir, width=75)
         self.browse_button = tk.Button(self, text="Browse", command=self._browse)
         self.confirm_button = tk.Button(self, text="Done!", command=self._wrap_up)
 
-        # KovaaK's config error messages
         self.dir_not_found_label = tk.Label(self, text="Directory not found")
 
+        # Main logic
         self._authenticate()  
         self._config()
             
 
-    def _authenticate(self):
+    def _authenticate(self) -> None:
 
         self.username_label.pack(pady=(15,0))
         self.username_entry.pack()
@@ -63,7 +59,7 @@ class Setup(tk.Tk):
         self.sign_up_label.pack(pady=(15,0))
         self.sign_up_button.pack(pady=(5,0))
 
-    def _config(self):
+    def _config(self) -> None:
         print("Setup _config")
         
         self.kvks_dir_label.pack(pady=(20,0))
@@ -72,7 +68,7 @@ class Setup(tk.Tk):
         self.confirm_button.pack(pady=(10,0))
 
 
-    def _sign_in(self):
+    def _sign_in(self) -> None:
         
         self._username.set(self.username_entry.get())
         self._password.set(self.password_entry.get())
@@ -84,14 +80,14 @@ class Setup(tk.Tk):
         if not response.status_code == 200:
             self.invalid_credentials_label.pack()
 
-    def _sign_up(self):
+    def _sign_up(self) -> None:
         webbrowser.open(self.config.sign_up_url)
 
-    def _browse(self):
+    def _browse(self) -> None:
         directory = filedialog.askdirectory()
         self._kvks_dir.set(directory)
 
-    def _wrap_up(self):
+    def _wrap_up(self) -> None:
         if os.path.exists(self._kvks_dir.get()):
             self.config.kvks_dir = self._kvks_dir.get()
             self._sign_in()
@@ -100,7 +96,7 @@ class Setup(tk.Tk):
         else:
             self.dir_not_found_label.pack()
 
-def main():
+def main() -> None:
     app = Setup()    
     app.mainloop()
 

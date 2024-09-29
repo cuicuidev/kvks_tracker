@@ -14,7 +14,6 @@ class Config:
         return cls._instance
     
     def __init__(self) -> None:
-        # TODO: process initialization logic
         
         self.HOME = os.getenv("HOME")
         self.backend_api_url = "https://www.google.com"
@@ -43,7 +42,7 @@ class Config:
         except FileNotFoundError:
             self.kvks_dir = self._default_kvks_dir
 
-    def cache(self):
+    def cache(self) -> None:
         print("cache", "w")
         with open(self.credentials_path, "w") as file:
             json.dump({"username" : self.username, "password" : self.username}, file)
