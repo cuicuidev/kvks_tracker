@@ -60,7 +60,6 @@ class Setup(tk.Tk):
         self.sign_up_button.pack(pady=(5,0))
 
     def _config(self) -> None:
-        print("Setup _config")
         
         self.kvks_dir_label.pack(pady=(20,0))
         self.kvks_dir_entry.pack()
