@@ -43,7 +43,6 @@ class Config:
             self.kvks_dir = self._default_kvks_dir
 
     def cache(self) -> None:
-        print("cache", "w")
         with open(self.credentials_path, "w") as file:
             json.dump({"username" : self.username, "password" : self.username}, file)
         
