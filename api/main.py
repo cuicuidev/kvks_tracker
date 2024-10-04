@@ -3,7 +3,7 @@ load_dotenv()
 
 from fastapi import FastAPI
 
-from auth import auth_router
+from auth.main import auth_router
 from users import users_router
     
 
