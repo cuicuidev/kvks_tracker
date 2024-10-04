@@ -21,7 +21,7 @@ class Setup(tk.Tk):
 
         # Authentication GUI elements
         self._username = tk.StringVar(self, self.config.username)
-        self._password = tk.StringVar(self, self.config.password)
+        self._password = tk.StringVar(self)
 
         self.username_label = tk.Label(self, text="Username")
         self.username_entry = tk.Entry(self, textvariable=self._username)
@@ -72,11 +72,23 @@ class Setup(tk.Tk):
         self._username.set(self.username_entry.get())
         self._password.set(self.password_entry.get())
         self.config.username = self._username.get()
-        self.config.password = self._password.get()
-        self.config.cache()
+        password = self._password.get()
 
-        response = requests.get(self.config.backend_api_url)
-        if not response.status_code == 200:
+        token_json = {
+            "grant_type" : "password",
+            "username" : self.config.username,
+            "password" : password,
+            "scope" : "",
+            "client_id" : "",
+            "client_secret" : ""
+        }
+
+        response = requests.post(url=self.config.backend_api_url + "auth/token", data=token_json)
+        if response.status_code == 200:
+            self.config.access_token = response.json()["access_token"]
+            self.invalid_credentials_label.pack_forget()
+
+        if response.status_code == 401:
             self.invalid_credentials_label.pack()
 
     def _sign_up(self) -> None:
@@ -87,13 +99,16 @@ class Setup(tk.Tk):
         self._kvks_dir.set(directory)
 
     def _wrap_up(self) -> None:
-        if os.path.exists(self._kvks_dir.get()):
+        self._sign_in()
+        if not os.path.exists(self._kvks_dir.get()):
+            self.dir_not_found_label.pack()
+        elif self.invalid_credentials_label.winfo_manager() == "pack":
+            self.dir_not_found_label.pack_forget()
+            return
+        else:
             self.config.kvks_dir = self._kvks_dir.get()
-            self._sign_in()
             self.config.cache()
             self.quit()
-        else:
-            self.dir_not_found_label.pack()
 
 def main() -> None:
     app = Setup()    

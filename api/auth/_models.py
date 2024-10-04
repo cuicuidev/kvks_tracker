@@ -17,6 +17,7 @@ class TokenData(BaseModel):
     username: str | None = None
 
 class User(BaseModel):
+    user_id: str
     username: str
     email: EmailStr
 
@@ -26,5 +27,4 @@ class User(BaseModel):
     is_active: bool
 
 class UserInDB(User):
-    _id: Optional[str] = None
     hashed_password: str

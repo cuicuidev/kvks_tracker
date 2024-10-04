@@ -29,7 +29,8 @@ def get_password_hash(password):
 def get_user(db: Database, username: str):
     user = db.users.find_one({"username": username})
     if user:
-        user["_id"] = str(user["_id"])
+        user["user_id"] = str(user["_id"])
+        del user["_id"]
         return _models.UserInDB(**user)
     return None
 
@@ -66,6 +67,7 @@ async def get_current_user(token: Annotated[str, Depends(oauth2_scheme)]):
     user = get_user(database.get_db(), username=token_data.username)
     if user is None:
         raise credentials_exception
+    user.hashed_password = "REDACTED"
     return user
 
 async def get_current_active_user(

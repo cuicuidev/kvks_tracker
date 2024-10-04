@@ -16,7 +16,7 @@ class Config:
     def __init__(self) -> None:
         
         self.HOME = os.getenv("HOME")
-        self.backend_api_url = "https://www.google.com"
+        self.backend_api_url = "http://localhost:8000/"
         self.sign_up_url = "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
         self._default_kvks_dir = f"{self.HOME}\\FPSAimTrainer"
         self.credentials_path = f"{self.HOME}\\.kvkstracker\\credentials.json"
@@ -30,10 +30,10 @@ class Config:
             with open(self.credentials_path) as file:
                 data = json.load(file)
                 self.username = data.get("username")
-                self.password = data.get("password")
+                self.access_token = data.get("access_token")
         except FileNotFoundError:
             self.username = None
-            self.password = None
+            self.access_token = None
 
         try:
             with open(self.config_path) as file:
@@ -44,7 +44,7 @@ class Config:
 
     def cache(self) -> None:
         with open(self.credentials_path, "w") as file:
-            json.dump({"username" : self.username, "password" : self.username}, file)
+            json.dump({"username" : self.username, "access_token" : self.access_token}, file)
         
         with open(self.config_path, "w") as file:
             json.dump({"kvks_dir" : self.kvks_dir}, file)
