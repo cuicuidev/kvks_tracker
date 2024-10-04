@@ -6,14 +6,14 @@ import os
 
 import requests
 
-import config
+from . import config
 
 class Setup(tk.Tk):
 
     def __init__(self) -> None:
         super().__init__()
 
-        self.title("KovaaK's - Voltaic Tracker Setup")
+        self.title("KovaaK's - Voltaic Tracker Config")
         self.geometry("600x350")
         self.resizable(False, False)
 
