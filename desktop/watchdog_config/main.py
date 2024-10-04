@@ -2,11 +2,60 @@ import tkinter as tk
 from tkinter import filedialog
 
 import webbrowser
+import json
 import os
+
+from typing import TypeVar
 
 import requests
 
-from . import config
+T = TypeVar("T", bound="Config")
+
+class Config:
+    _instance: "Config" = None
+
+    def __new__(cls, *args, **kwargs) -> T:
+        if cls._instance is None:
+            cls._instance = super(Config, cls).__new__(cls, *args, **kwargs)
+        return cls._instance
+    
+    def __init__(self) -> None:
+        
+        self.HOME = os.getenv("HOME")
+        if self.HOME is None:
+            self.HOME = os.path.expanduser("~")
+        self.backend_api_url = "http://localhost:8000/"
+        self.sign_up_url = "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+        self._default_kvks_dir = f"{self.HOME}\\FPSAimTrainer"
+        self.credentials_path = f"{self.HOME}\\.kvkstracker\\credentials.json"
+        self.config_path = f"{self.HOME}\\.kvkstracker\\config.json"
+
+        try:
+            os.mkdir(f"{self.HOME}\\.kvkstracker")
+        except FileExistsError: pass
+
+        try:
+            with open(self.credentials_path) as file:
+                data = json.load(file)
+                self.username = data.get("username")
+                self.access_token = data.get("access_token")
+        except FileNotFoundError:
+            self.username = None
+            self.access_token = None
+
+        try:
+            with open(self.config_path) as file:
+                data = json.load(file)
+                self.kvks_dir = data.get("kvks_dir", self._default_kvks_dir)
+        except FileNotFoundError:
+            self.kvks_dir = self._default_kvks_dir
+
+    def cache(self) -> None:
+        with open(self.credentials_path, "w") as file:
+            json.dump({"username" : self.username, "access_token" : self.access_token}, file)
+        
+        with open(self.config_path, "w") as file:
+            json.dump({"kvks_dir" : self.kvks_dir}, file)
 
 class Setup(tk.Tk):
 
@@ -17,7 +66,7 @@ class Setup(tk.Tk):
         self.geometry("600x350")
         self.resizable(False, False)
 
-        self.config = config.Config()
+        self.config = Config()
 
         # Authentication GUI elements
         self._username = tk.StringVar(self, self.config.username)
@@ -32,6 +81,7 @@ class Setup(tk.Tk):
         self.sign_up_button = tk.Button(self, text="Sign Up", command=self._sign_up)
 
         self.invalid_credentials_label = tk.Label(self, text="Invalid credentials")
+        self.server_error_label = tk.Label(self, text="Server error")
 
         # KovaaK's config GUI elements
         self._kvks_dir = tk.StringVar(self, self.config.kvks_dir)
@@ -87,9 +137,13 @@ class Setup(tk.Tk):
         if response.status_code == 200:
             self.config.access_token = response.json()["access_token"]
             self.invalid_credentials_label.pack_forget()
+            self.server_error_label.pack_forget()
 
-        if response.status_code == 401:
+        elif response.status_code == 401:
             self.invalid_credentials_label.pack()
+        
+        else:
+            self.server_error_label.pack()
 
     def _sign_up(self) -> None:
         webbrowser.open(self.config.sign_up_url)
