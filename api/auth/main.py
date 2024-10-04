@@ -13,6 +13,21 @@ auth_router = APIRouter(prefix="/auth", tags=["Auth"])
 
 @auth_router.post("/signup")
 async def create_user(request: _models.SignUpRequest, db=Depends(get_db)) -> Response:
+    conflict = db.users.find_one(
+        {"$or": [
+            {"username": request.username},
+            {"email": request.email}
+        ]}
+    )
+    
+    if conflict:
+        if conflict['username'] == request.username and conflict['email'] == request.email:
+            raise HTTPException(status_code=status.HTTP_409_CONFLICT, detail="Both username and email are already in use.")
+        elif conflict['username'] == request.username:
+            raise HTTPException(status_code=status.HTTP_409_CONFLICT, detail="Username is already in use.")
+        elif conflict['email'] == request.email:
+            raise HTTPException(status_code=status.HTTP_409_CONFLICT, detail="Email is already in use.")
+
     hashed_password=_jwt.pwd_context.hash(request.password)
     now = datetime.datetime.now(datetime.UTC)
     user = _models.UserInDB(
@@ -31,9 +46,9 @@ async def create_user(request: _models.SignUpRequest, db=Depends(get_db)) -> Res
 
 @auth_router.post("/token", response_model=_models.Token)
 async def login_for_access_token(
-    form_data: Annotated[OAuth2PasswordRequestForm, Depends()],
-    db=Depends(get_db)
-):
+        form_data: Annotated[OAuth2PasswordRequestForm, Depends()],
+        db=Depends(get_db)
+        ):
     user = _jwt.authenticate_user(db, form_data.username, form_data.password)
     if not user:
         raise HTTPException(
@@ -41,7 +56,5 @@ async def login_for_access_token(
             detail="Incorrect username or password",
             headers={"WWW-Authenticate": "Bearer"},
         )
-    access_token = _jwt.create_access_token(
-        data={"sub": user.username}
-    )
+    access_token = _jwt.create_access_token(data={"sub": user.username})
     return _models.Token(access_token=access_token, token_type="bearer")

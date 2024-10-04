@@ -1,5 +1,7 @@
 import datetime
 
+from typing import Optional
+
 from pydantic import BaseModel, EmailStr
 
 class SignUpRequest(BaseModel):
@@ -24,4 +26,5 @@ class User(BaseModel):
     is_active: bool
 
 class UserInDB(User):
+    _id: Optional[str] = None
     hashed_password: str
