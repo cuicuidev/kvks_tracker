@@ -5,7 +5,7 @@ from typing import Union, Optional
 import bson.json_util
 from pydantic import BaseModel
 
-from fastapi import APIRouter, Response, Depends, Query, HTTPException, status
+from fastapi import APIRouter, Response, Depends, HTTPException, status
 
 import bson
 from pymongo.database import Database
@@ -110,23 +110,3 @@ async def latest_score(
         raise HTTPException(status_code=404, detail="No scores found for the user.")
 
     return Response(content=bson.json_util.dumps(result), media_type="application/json")
-
-# def get_scenario_query(
-#         name: str = Query(...),
-#         creator: str = Query(...)
-#         ) -> Scenario:
-#     return Scenario(name=name, creator=creator)
-
-# @tracking_router.get("/scores")
-# async def get_scores(
-#         scenario: Scenario = Depends(get_scenario_query),
-#         current_user: User = Depends(get_current_active_user),
-#         db: Database = Depends(get_db)
-#         ) -> Response:
-    
-#     # cursor = db.scores.find({"$and" : [
-#     #     {"scenario.name" : scenario.name},
-#     #     {"scenario.creator" : scenario.creator}
-#     # ]})
-
-#     return Response()

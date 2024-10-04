@@ -5,8 +5,22 @@ import threading
 import requests
 import zipfile
 
-import config
+from typing import TypeVar
 
+T = TypeVar("T", bound="Config")
+
+class Config:
+    _instance: "Config" = None
+
+    def __new__(cls, *args, **kwargs) -> T:
+        if cls._instance is None:
+            cls._instance = super(Config, cls).__new__(cls, *args, **kwargs)
+        return cls._instance
+
+    def __init__(self) -> None:
+        self.MIRRORS = [
+            "http://localhost:8000/download/desktop_client.zip",
+        ]
 
 class Setup(tk.Tk):
 
@@ -17,7 +31,7 @@ class Setup(tk.Tk):
         self.geometry("600x350")
         self.resizable(False, False)
 
-        self.config = config.Config()
+        self.config = Config()
 
         # Setup the initial frames and layout
         self.create_widgets()

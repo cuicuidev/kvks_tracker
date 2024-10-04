@@ -24,7 +24,7 @@ def parse_csv(path):
     kills_section, misc_section, results_section, config_section = raw_csv.split("\n\n")
     kills_df = pd.read_csv(io.StringIO(kills_section))
     kills_df.columns = kills_df.columns.str.lower().str.replace(" ", "_").str.replace("#", "n")
-    kills_df["timestamp"] = pd.to_datetime(kills_df["timestamp"]).apply(lambda x: x.isoformat()[:-3] + "Z")
+    kills_df["timestamp"] = pd.to_datetime(kills_df["timestamp"]).apply(lambda x: x.isoformat()[:-3]).dt.tz_convert(tz=datetime.UTC)
     kills_df["ttk"] = kills_df["ttk"].str[:-1].astype(float)
 
     misc_df = pd.read_csv(io.StringIO(misc_section))
@@ -47,7 +47,7 @@ def parse_csv(path):
                     "miss_count", "midairs", "midaired", "directs", "directed", "reloads", "distance_traveled", "mbs_points", "score", "pause_count", "pause_duration",
                     "input_lag", "max_fps_config", "sens_increment", "horiz_sens", "vert_sens", "dpi", "fov", "crosshair_scale", "avg_fps", "resolution_scale"]
     
-    score_df["challenge_start"] = pd.to_datetime(score_df["challenge_start"]).apply(lambda x: x.isoformat()[:-3] + "Z")
+    score_df["challenge_start"] = pd.to_datetime(score_df["challenge_start"]).apply(lambda x: x.isoformat()[:-3]).dt.tz_convert(tz=datetime.UTC)
     for col in numeric_cols:
         score_df[col] = score_df[col].astype(float)
 
