@@ -5,71 +5,56 @@ import webbrowser
 import json
 import os
 
-from typing import TypeVar
-
 import requests
 
-T = TypeVar("T", bound="Config")
+HOME = os.getenv("HOME")
+if HOME is None:
+    HOME = os.path.expanduser("~")
+BACKEND_API_URL = "http://localhost:8000/"
+SIGN_UP_URL = "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+DEFAULT_KVKS_DIR = os.path.join(HOME, "FPSAimTrainer")
+CREDENTIALS_PATH = os.path.join(HOME, ".kvkstracker", "credentials.json")
+CONFIG_PATH = os.path.join(HOME, ".kvkstracker", "config.json")
 
-class Config:
-    _instance: "Config" = None
+try:
+    os.mkdir(os.path.join(HOME, ".kvkstracker"))
+except FileExistsError: pass
 
-    def __new__(cls, *args, **kwargs) -> T:
-        if cls._instance is None:
-            cls._instance = super(Config, cls).__new__(cls, *args, **kwargs)
-        return cls._instance
+try:
+    with open(CREDENTIALS_PATH) as file:
+        data = json.load(file)
+        username = data.get("username")
+        access_token = data.get("access_token")
+except FileNotFoundError:
+    username = None
+    access_token = None
+
+try:
+    with open(CONFIG_PATH) as file:
+        data = json.load(file)
+        kvks_dir = data.get("kvks_dir", DEFAULT_KVKS_DIR)
+except FileNotFoundError:
+    kvks_dir = DEFAULT_KVKS_DIR
+
+def cache() -> None:
+    with open(CREDENTIALS_PATH, "w") as file:
+        json.dump({"username" : username, "access_token" : access_token}, file)
     
-    def __init__(self) -> None:
-        
-        self.HOME = os.getenv("HOME")
-        if self.HOME is None:
-            self.HOME = os.path.expanduser("~")
-        self.backend_api_url = "http://localhost:8000/"
-        self.sign_up_url = "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
-        self._default_kvks_dir = f"{self.HOME}\\FPSAimTrainer"
-        self.credentials_path = f"{self.HOME}\\.kvkstracker\\credentials.json"
-        self.config_path = f"{self.HOME}\\.kvkstracker\\config.json"
-
-        try:
-            os.mkdir(f"{self.HOME}\\.kvkstracker")
-        except FileExistsError: pass
-
-        try:
-            with open(self.credentials_path) as file:
-                data = json.load(file)
-                self.username = data.get("username")
-                self.access_token = data.get("access_token")
-        except FileNotFoundError:
-            self.username = None
-            self.access_token = None
-
-        try:
-            with open(self.config_path) as file:
-                data = json.load(file)
-                self.kvks_dir = data.get("kvks_dir", self._default_kvks_dir)
-        except FileNotFoundError:
-            self.kvks_dir = self._default_kvks_dir
-
-    def cache(self) -> None:
-        with open(self.credentials_path, "w") as file:
-            json.dump({"username" : self.username, "access_token" : self.access_token}, file)
-        
-        with open(self.config_path, "w") as file:
-            json.dump({"kvks_dir" : self.kvks_dir}, file)
+    with open(CONFIG_PATH, "w") as file:
+        json.dump({"kvks_dir" : kvks_dir}, file)
 
 class Setup(tk.Tk):
 
     def __init__(self) -> None:
         super().__init__()
+        global kvks_dir, username
 
         self.title("KovaaK's - Voltaic Tracker Config")
         self.geometry("600x350")
         self.resizable(False, False)
 
-        self.config = Config()
-
         # Authentication GUI elements
-        self._username = tk.StringVar(self, self.config.username)
+        self._username = tk.StringVar(self, username)
         self._password = tk.StringVar(self)
 
         self.username_label = tk.Label(self, text="Username")
@@ -84,7 +69,7 @@ class Setup(tk.Tk):
         self.server_error_label = tk.Label(self, text="Server error")
 
         # KovaaK's config GUI elements
-        self._kvks_dir = tk.StringVar(self, self.config.kvks_dir)
+        self._kvks_dir = tk.StringVar(self, kvks_dir)
 
         self.kvks_dir_label = tk.Label(self, text="KovaaK's directory")
         self.kvks_dir_entry = tk.Entry(self, textvariable=self._kvks_dir, width=75)
@@ -118,24 +103,25 @@ class Setup(tk.Tk):
 
 
     def _sign_in(self) -> None:
+        global username, access_token, BACKEND_API_URL
         
         self._username.set(self.username_entry.get())
         self._password.set(self.password_entry.get())
-        self.config.username = self._username.get()
+        username = self._username.get()
         password = self._password.get()
 
         token_json = {
             "grant_type" : "password",
-            "username" : self.config.username,
+            "username" : username,
             "password" : password,
             "scope" : "",
             "client_id" : "",
             "client_secret" : ""
         }
 
-        response = requests.post(url=self.config.backend_api_url + "auth/token", data=token_json)
+        response = requests.post(url=BACKEND_API_URL + "auth/token", data=token_json)
         if response.status_code == 200:
-            self.config.access_token = response.json()["access_token"]
+            access_token = response.json()["access_token"]
             self.invalid_credentials_label.pack_forget()
             self.server_error_label.pack_forget()
 
@@ -146,13 +132,15 @@ class Setup(tk.Tk):
             self.server_error_label.pack()
 
     def _sign_up(self) -> None:
-        webbrowser.open(self.config.sign_up_url)
+        global SIGN_UP_URL
+        webbrowser.open(SIGN_UP_URL)
 
     def _browse(self) -> None:
         directory = filedialog.askdirectory()
         self._kvks_dir.set(directory)
 
     def _wrap_up(self) -> None:
+        global kvks_dir
         self._sign_in()
         if not os.path.exists(self._kvks_dir.get()):
             self.dir_not_found_label.pack()
@@ -160,8 +148,8 @@ class Setup(tk.Tk):
             self.dir_not_found_label.pack_forget()
             return
         else:
-            self.config.kvks_dir = self._kvks_dir.get()
-            self.config.cache()
+            kvks_dir = self._kvks_dir.get()
+            cache()
             self.quit()
 
 def main() -> None:

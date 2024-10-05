@@ -14,6 +14,8 @@ import pandas as pd
 import requests
 
 HOME = os.getenv("HOME")
+if HOME is None:
+    HOME = os.path.expanduser("~")
 POST_SCORE_ENDPOINT = "http://localhost:8000/tracking/score"
 API_LAST_UPLOAD_ENDPOINT = "http://localhost:8000/tracking/latest"
 
