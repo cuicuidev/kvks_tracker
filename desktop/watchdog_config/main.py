@@ -21,13 +21,23 @@ DEFAULT_INSTALL_DIR = os.path.join(HOME, "FPSAimTrainer Tracker")
 CREDENTIALS_PATH = os.path.join(HOME, ".kvkstracker", "credentials.json")
 CONFIG_PATH = os.path.join(HOME, ".kvkstracker", "config.json")
 LOGS_ENDPOINT = "http://localhost:8000/analytics/errors"
+DOTFILES_DIR = os.path.join(HOME, ".kvkstracker")
+
+try:
+    with open(CONFIG_PATH) as file:
+        data = json.load(file)
+        kvks_dir = data.get("kvks_dir", DEFAULT_KVKS_DIR)
+        install_dir = data.get("install_dir", DEFAULT_INSTALL_DIR)
+except FileNotFoundError:
+    kvks_dir = DEFAULT_KVKS_DIR
+    install_dir = DEFAULT_INSTALL_DIR
 
 # LOGGING
 logger = logging.getLogger("kvks_tracker")
 logger.setLevel(logging.INFO)
 
-log_file = "config.log"
-log_type = log_file.split(".")[0]
+log_file = os.path.join(DOTFILES_DIR, "config.log")
+log_type = "config"
 
 handler = RotatingFileHandler(log_file, maxBytes=1_048_576, backupCount=1)
 handler.setLevel(logging.INFO)
@@ -70,16 +80,6 @@ except FileNotFoundError:
     logger.warning(f"Could not locate credentials.json at {CREDENTIALS_PATH}")
     username = None
     access_token = None
-
-try:
-    with open(CONFIG_PATH) as file:
-        data = json.load(file)
-        kvks_dir = data.get("kvks_dir", DEFAULT_KVKS_DIR)
-        install_dir = data.get("install_dir", DEFAULT_INSTALL_DIR)
-except FileNotFoundError:
-    logger.warning(f"Could not locate config.json at {CONFIG_PATH}")
-    kvks_dir = DEFAULT_KVKS_DIR
-    install_dir = DEFAULT_INSTALL_DIR
 
 def cache() -> None:
     global logger
@@ -206,7 +206,7 @@ class Setup(tk.Tk):
 
     def run_tracker(self, install_dir):
         """Run the kvks_tracker.exe file."""
-        app_path = os.path.join(install_dir, "config.exe")
+        app_path = os.path.join(install_dir, "kvks_tracker.exe")
         if os.path.exists(app_path):
             os.startfile(app_path)
             self.quit()

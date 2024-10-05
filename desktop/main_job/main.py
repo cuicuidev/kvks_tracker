@@ -1,4 +1,5 @@
 import os
+import sys
 import glob
 import io
 import json
@@ -17,7 +18,7 @@ warnings.filterwarnings("ignore")
 
 # GLOBALS
 
-VERSION = "0.0.3"
+VERSION = "0.0.6"
 
 HOME = os.getenv("HOME")
 if HOME is None:
@@ -38,8 +39,8 @@ DOTFILES_DIR = os.path.join(HOME, ".kvkstracker")
 logger = logging.getLogger("kvks_tracker")
 logger.setLevel(logging.INFO)
 
-log_file = "kvks_tracker.log"
-log_type = log_file.split(".")[0]
+log_file = os.path.join(DOTFILES_DIR, "kvks_tracker.log")
+log_type = "kvks_tracker"
 
 handler = RotatingFileHandler(log_file, maxBytes=1_048_576, backupCount=1)
 handler.setLevel(logging.INFO)
@@ -213,13 +214,14 @@ def update(headers):
 
         with zipfile.ZipFile(app_file, 'r') as zip_ref:
             zip_ref.extractall(install_dir)
-
-        os.remove(app_file)        
+        try:
+            os.remove(app_file)
+        except: pass
         os.startfile(os.path.join(install_dir, "kvks_tracker.exe"))
-        exit(code=0)
+        sys.exit(0)
     except Exception as e:
         log_exception(e, headers)
-        exit(code=1)
+        sys.exit(1)
 
 
 def main() -> None:
