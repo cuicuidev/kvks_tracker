@@ -49,7 +49,7 @@ class Setup(tk.Tk):
         super().__init__()
         global kvks_dir, username
 
-        self.title("KovaaK's - Voltaic Tracker Config")
+        self.title("KovaaK's Tracker Config")
         self.geometry("600x350")
         self.resizable(False, False)
 

@@ -80,6 +80,8 @@ class KovaaksScore(BaseModel):
     avg_fps: float
     resolution_scale: float
 
+    local_created_at: datetime.datetime
+
 @tracking_router.post("/score")
 async def post_score(
         score: KovaaksScore,
@@ -102,8 +104,8 @@ async def latest_score(
     user_id = current_user.user_id
 
     result = db.scores.find_one(
-        {"user_id": user_id},
-        sort=[("created_at", -1)]
+        {"user_id": bson.ObjectId(user_id)},
+        sort=[("local_created_at", -1)]
     )
 
     if not result:
