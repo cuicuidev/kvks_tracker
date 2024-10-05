@@ -15,11 +15,14 @@ import requests
 
 warnings.filterwarnings("ignore")
 
+VERSION = "0.0.1"
+
 HOME = os.getenv("HOME")
 if HOME is None:
     HOME = os.path.expanduser("~")
 POST_SCORE_ENDPOINT = "http://localhost:8000/tracking/score"
 API_LAST_UPLOAD_ENDPOINT = "http://localhost:8000/tracking/latest"
+LATEST_CLIENT_VERSION_ENDPOINT = "http://localhost:8000/download/latest"
 
 def parse_csv(path):
     with open(path) as file:
@@ -106,6 +109,16 @@ def walk_and_post_new_files(path: str, headers: dict[str, str], last_uploaded: d
             if response.status_code == 200:
                 print(f"File {filepath} uploaded successfully.")
 
+def check_for_updates():
+    response = requests.get(LATEST_CLIENT_VERSION_ENDPOINT)
+    upstream_client_version = response.json()["desktop_client_version"]
+    local_client_version = VERSION
+    if upstream_client_version > local_client_version:
+        update()
+
+def update():
+    response = requests.get(LATEST_CLIENT_VERSION_ENDPOINT)
+
 def main() -> None:
     config_path = os.path.join(HOME, ".kvkstracker/config.json")
     with open(config_path) as f:
@@ -119,6 +132,8 @@ def main() -> None:
             "Authorization": f"Bearer {access_token}",
             "Content-Type": "application/json"
         }
+
+    check_for_updates()
 
     last_uploaded = get_last_upload_time_from_api(headers)
     print(f"Last uploaded timestamp: {last_uploaded}")

@@ -5,6 +5,7 @@ from fastapi.responses import StreamingResponse
 
 WORKDIR = os.getcwd()
 FILE_DIRECTORY = os.path.join(WORKDIR, "downloads/bin")
+DESKTOP_CLIENT_VERSION = "0.0.1"
 
 downloads_router = APIRouter(prefix="/download", tags=["Downloads"])
 
@@ -29,3 +30,7 @@ async def download_setup():
         return StreamingResponse(file_like, media_type="application/octet-stream")
     else:
         return {"error": "File not found"}
+    
+@downloads_router.get("/latest")
+async def latest_version():
+    return {"desktop_client_version" : DESKTOP_CLIENT_VERSION}

@@ -6,12 +6,14 @@ import ctypes
 import threading
 import requests
 import zipfile
+import json
 
 HOME = os.getenv("HOME")
 if HOME is None:
     HOME = os.path.expanduser("~")
 DEFAULT_INSTALATION_DIR = os.path.join(HOME, "FPSAimTrainer Tracker")
 STARTUP_DIR = os.path.join(HOME, "AppData", "Roaming", "Microsoft", "Windows", "Start Menu", "Programs", "Startup")
+DOTFILES_DIR = os.path.join(HOME, ".kvkstracker")
 MIRRORS = [
     "http://localhost:8000/download/desktop_client.zip",
     ]
@@ -130,11 +132,13 @@ class Setup(tk.Tk):
     def download_and_install(self, install_dir):
         """Download the app and extract it to the installation directory."""
         global MIRRORS
-        mirrors = MIRRORS
         app_file = os.path.join(install_dir, "app.zip")
 
+        with open(os.path.join(DOTFILES_DIR, "config.json"), "w") as file:
+            json.dump({"install_dir" : install_dir}, file)
+
         try:
-            for mirror in mirrors:
+            for mirror in MIRRORS:
                 try:
                     with requests.get(mirror, stream=True) as response:
                         response.raise_for_status()
@@ -191,7 +195,6 @@ class Setup(tk.Tk):
             self.quit()
         else:
             messagebox.showerror("Error", f"config.exe not found in {install_dir}")
-
 
     def clear_frames(self):
         """Remove all current frames from the window."""

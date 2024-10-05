@@ -1,5 +1,5 @@
 import tkinter as tk
-from tkinter import filedialog
+from tkinter import filedialog, messagebox
 
 import webbrowser
 import json
@@ -13,6 +13,7 @@ if HOME is None:
 BACKEND_API_URL = "http://localhost:8000/"
 SIGN_UP_URL = "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
 DEFAULT_KVKS_DIR = os.path.join(HOME, "FPSAimTrainer")
+DEFAULT_INSTALL_DIR = os.path.join(HOME, "FPSAimTrainer Tracker")
 CREDENTIALS_PATH = os.path.join(HOME, ".kvkstracker", "credentials.json")
 CONFIG_PATH = os.path.join(HOME, ".kvkstracker", "config.json")
 
@@ -33,6 +34,7 @@ try:
     with open(CONFIG_PATH) as file:
         data = json.load(file)
         kvks_dir = data.get("kvks_dir", DEFAULT_KVKS_DIR)
+        install_dir = data.get("install_dir", DEFAULT_INSTALL_DIR)
 except FileNotFoundError:
     kvks_dir = DEFAULT_KVKS_DIR
 
@@ -41,7 +43,7 @@ def cache() -> None:
         json.dump({"username" : username, "access_token" : access_token}, file)
     
     with open(CONFIG_PATH, "w") as file:
-        json.dump({"kvks_dir" : kvks_dir}, file)
+        json.dump({"kvks_dir" : kvks_dir, "install_dir" : install_dir}, file)
 
 class Setup(tk.Tk):
 
@@ -140,7 +142,7 @@ class Setup(tk.Tk):
         self._kvks_dir.set(directory)
 
     def _wrap_up(self) -> None:
-        global kvks_dir
+        global kvks_dir, install_dir
         self._sign_in()
         if not os.path.exists(self._kvks_dir.get()):
             self.dir_not_found_label.pack()
@@ -150,7 +152,17 @@ class Setup(tk.Tk):
         else:
             kvks_dir = self._kvks_dir.get()
             cache()
+            self.run_tracker(install_dir=install_dir)
             self.quit()
+
+    def run_tracker(self, install_dir):
+        """Run the kvks_tracker.exe file."""
+        app_path = os.path.join(install_dir, "config.exe")
+        if os.path.exists(app_path):
+            os.startfile(app_path)
+            self.quit()
+        else:
+            messagebox.showerror("Error", f"kvks_tracker.exe not found in {install_dir}")
 
 def main() -> None:
     app = Setup()    
