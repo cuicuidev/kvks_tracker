@@ -5,7 +5,7 @@ from fastapi.responses import StreamingResponse
 
 WORKDIR = os.getcwd()
 FILE_DIRECTORY = os.path.join(WORKDIR, "downloads/bin")
-DESKTOP_CLIENT_VERSION = "0.0.1"
+DESKTOP_CLIENT_VERSION = "0.0.3"
 
 downloads_router = APIRouter(prefix="/download", tags=["Downloads"])
 

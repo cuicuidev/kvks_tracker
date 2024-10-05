@@ -8,6 +8,8 @@ import requests
 import zipfile
 import json
 
+import traceback
+
 HOME = os.getenv("HOME")
 if HOME is None:
     HOME = os.path.expanduser("~")
@@ -18,7 +20,23 @@ MIRRORS = [
     "http://localhost:8000/download/desktop_client.zip",
     ]
 
+LOGS_ENDPOINT = "http://localhost:8000/analytics/errors"
+log_type = "setup"
+
 TERMS_AND_SERVICES = """Terms and Services.\n""" * 100
+
+
+# LOGGING
+def post_logs(error, headers):
+    global LOGS_ENDPOINT, log_type
+    try:
+        requests.post(LOGS_ENDPOINT, json={"error" : error, "type": log_type}, headers=headers)
+    except:
+        pass
+
+def log_exception(exc: type[BaseException], headers: dict[str, str]):
+    exc_info = "".join(traceback.format_exception(None, exc, exc.__traceback__))
+    post_logs(exc_info, headers)
 
 class Setup(tk.Tk):
 
@@ -220,11 +238,14 @@ def request_admin_privileges():
 
 def main() -> None:
     
-    if not is_admin():
-        request_admin_privileges()
-        return
-    app = Setup()
-    app.mainloop()
+    try:
+        if not is_admin():
+            request_admin_privileges()
+            return
+        app = Setup()
+        app.mainloop()
+    except Exception as e:
+        log_exception(e)
 
 
 if __name__ == "__main__":
